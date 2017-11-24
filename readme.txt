@@ -1,6 +1,3 @@
-Thanks for downloading this theme!
+上海瞻芯电子科技有限公司
 
-Theme Name: Bell
-Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+网站初稿
