@@ -11,7 +11,7 @@ var navData = {
     "nav": {
         "company":['关于我们','Company'],
         "technology" : ['技术背景','Technology'],
-        "product" : ['产品方向','Product'],
+        "product" : ['产品','Product'],
         "application" : ['行业应用','Application'],
         "join" : ['招聘信息','Join us'],
         "nav_contact" : ['联系我们','Contact us']
