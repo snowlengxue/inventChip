@@ -2,11 +2,12 @@ var title = ['上海瞻芯电子科技有限公司','InventChip Technology Co.,L
 var cn = ['中文','Cn'];
 var en = ['英文','En'];
 var frontPage = ['首页','Home'];
-
+//首页hero标题
 var hero_caption = ['电源和电驱动半导体解决方案','Power and Electrically Driven Semiconductior Solutions'];
 var hero_subhead = ['我们提供以新技术为核心的，集成电路和应用模块产品','We provide integrated circuit and application module products with new technologies.'];
 var hero_getStarted = ['了解详情','Get Started Now'];
 
+//导航栏&首页大标题
 var navData = {
     "nav": {
         "company":['关于我们','Company'],
@@ -44,28 +45,50 @@ var navData = {
     }
 };
 
-// var adData = {
-//   "inventChip" : ['公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
-//   '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Voluptua scripserit ' +
-//   'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
-//   'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
-//   'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
-//   'Menandritemporibus an duo.'],
-//
-// };
+var adwordsData = {
+    //首页副标题
+    "ad_inventChip": ['inventChip公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
+    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
+    'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
+    'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
+    'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
+    'Menandritemporibus an duo.'],
 
-var inventChip = ['公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
-'为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Voluptua scripserit ' +
-'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
-'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
-'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
-'Menandritemporibus an duo.'];
+    "ad_PT": ['productTechnology公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
+    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
+    'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
+    'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
+    'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
+    'Menandritemporibus an duo.'],
+
+    "ad_App": ['Application公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
+    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
+    'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
+    'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
+    'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
+    'Menandritemporibus an duo.'],
+
+    //首页行业应用图片说明文字
+    "app_1" : ['新能源汽车','New Energy Automobile'],
+    "app_2" : ['新能源发电','New Energy Power Generation'],
+    "app_3" : ['轨道交通','Railway Traffic'],
+    "app_4" : ['智能电网','Smart Power Grids'],
+    "app_5" : ['节能环保','Energy Conservation'],
+    "app_6" : ['轨道交通','Railway Traffic'],
+    "app_7" : ['新能源汽车','New Energy Automobile'],
+    "app_8" : ['新能源','New Energy']
+
+
+};
+
 
 var campnyInfo = {
     "add": ['上海市浦东新区南汇新城镇海基六路218弄15号楼304室','Suite 304, Building 15, Lane 218, Haiji No.6 Road, Pudong New District, Shanghai 201306, P.R. China'],
     "tel": '+86 021-2093 6199',
     "email": 'inventchip@inventchip.com.cn'
-}
+};
+
+
 
 
 

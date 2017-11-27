@@ -25,12 +25,11 @@ function contentWrite() {
         }
     }
 
-    // for(item in adData) {
-    //     var id = '#' + i;
-    //     $(id).html(adData[item][lang_flag]);
-    // }
+    for(item in adwordsData) {
+        var id = '#' + item;
+        $(id).html(adwordsData[item][lang_flag]);
+    }
 
-    $('.inventChip').html(inventChip[lang_flag]);
     $('#add').html(campnyInfo.add[lang_flag]);
     $('#tel').html(campnyInfo.tel);
     $('#email').html(campnyInfo.email);
