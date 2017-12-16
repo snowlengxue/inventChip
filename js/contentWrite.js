@@ -26,14 +26,11 @@ function contentWrite() {
             $(classN).html(navData[item][i][lang_flag]);
         }
     }
-
     //首页各个板块标题
     for(item in adwordsData) {
         var classN = '.' + item;
         $(classN).html(adwordsData[item][lang_flag]);
     }
-
-
     //首页招聘信息
     for(item in jobsData) {
         for(i in jobsData[item]) {
@@ -43,7 +40,6 @@ function contentWrite() {
     }
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
-
     //首页联系我们
     $('#add').html(campnyInfo.add[lang_flag]);
     $('#tel').html(campnyInfo.tel);
