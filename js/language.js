@@ -76,7 +76,12 @@ var adwordsData = {
     "app_5" : ['节能环保','Energy Conservation'],
     "app_6" : ['轨道交通','Railway Traffic'],
     "app_7" : ['新能源汽车','New Energy Automobile'],
-    "app_8" : ['新能源','New Energy']
+    "app_8" : ['新能源','New Energy'],
+    //招聘信息标题
+    "jobD" : ['职位描述：','Description:'],
+    "jobR" : ['职位要求：','Requirements:'],
+    "jobA" : ['工作地点：','Workplace:'],
+    "resume" : ['简历投递：','Submit Resume:']
 };
 
 var jobsData = {

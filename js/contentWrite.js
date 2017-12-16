@@ -41,6 +41,10 @@ function contentWrite() {
     }
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
+    for(item in adwordsData) {
+        var classN = '.' + item;
+        $(classN).html(adwordsData[item][lang_flag]);
+    }
     //首页联系我们
     $('#add').html(campnyInfo.add[lang_flag]);
     $('#tel').html(campnyInfo.tel);
