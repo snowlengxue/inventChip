@@ -77,11 +77,105 @@ var adwordsData = {
     "app_6" : ['轨道交通','Railway Traffic'],
     "app_7" : ['新能源汽车','New Energy Automobile'],
     "app_8" : ['新能源','New Energy']
-
-
 };
 
+var jobsData = {
+    //招聘职位名称
+    "jobN" : {
+        "jobN1" : ['电子工程师1','Electronic Engineer1'],
+        "jobN2" : ['电子工程师2','Electronic Engineer2'],
+        "jobN3" : ['电子工程师3','Electronic Engineer3'],
+        "jobN4" : ['电子工程师4','Electronic Engineer4']
+    },
 
+    //招聘信息职位描述
+    "jobD" : {
+        "jobD1" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
+        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
+        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.'],
+        "jobD2" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
+        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
+        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.'],
+        "jobD3" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
+        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
+        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.'],
+        "jobD4" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
+        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
+        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.']
+    },
+    //招聘信息职位要求
+    "jobR" : {
+        "jobR1" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.'],
+        "jobR2" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.'],
+        "jobR3" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.'],
+        "jobR4" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
+        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
+        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
+        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
+        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
+        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
+        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
+        'electronic engineer.']
+    }
+}
+
+//了解更多
+var more = ['了解更多','Learn More'];
+
+//首页联系我们
 var campnyInfo = {
     "add": ['上海市浦东新区南汇新城镇海基六路218弄15号楼304室','Suite 304, Building 15, Lane 218, Haiji No.6 Road, Pudong New District, Shanghai 201306, P.R. China'],
     "tel": '+86 021-2093 6199',
