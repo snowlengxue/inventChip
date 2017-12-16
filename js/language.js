@@ -1,6 +1,6 @@
 var title = ['上海瞻芯电子科技有限公司','InventChip Technology Co.,Ltd.'];
-var cn = ['中文','Cn'];
-var en = ['英文','En'];
+var cn = ['中文','CN'];
+var en = ['EN','EN'];
 var frontPage = ['首页','Home'];
 //首页hero标题
 var hero_caption = ['电源和电驱动半导体解决方案','Power and Electrically Driven Semiconductior Solutions'];
