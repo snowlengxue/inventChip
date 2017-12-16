@@ -367,3 +367,14 @@ section.about {
 .modal-header:after {
     clear: both;
 }
+
+
+/*
+* 招聘信息下拉框个性样式
+*/
+.panel-group .panel .panel-heading .panel-title .btn-accordion {
+    padding: 13px 30px 8px 30px;
+    display: inline-block;
+    width: 90%;
+    line-height: 1.5;
+}
