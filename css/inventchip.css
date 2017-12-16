@@ -15,6 +15,10 @@ a:hover {
     cursor: pointer;
 }
 
+.adcaption {
+    font-size: 18px;
+}
+
 /*行业应用*/
 .portfolio-over h3{
     margin: 0;
