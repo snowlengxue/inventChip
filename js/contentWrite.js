@@ -10,7 +10,7 @@ $('.en').click(function(){
 });
 
 function contentWrite() {
-    $('#title').html(title[lang_flag]);
+    $('.title').html(title[lang_flag]);
     $('.cn').html(cn[lang_flag]+'/');
     $('.en').html(en[lang_flag]);
     //首页大banner 大标题
@@ -22,15 +22,17 @@ function contentWrite() {
     //首页导航栏
     for(item in navData) {
         for(i in navData[item]) {
-            var id = '#' + i;
-            $(id).html(navData[item][i][lang_flag]);
+            var classN = '.' + i;
+            $(classN).html(navData[item][i][lang_flag]);
         }
     }
+
     //首页各个板块标题
     for(item in adwordsData) {
-        var id = '#' + item;
-        $(id).html(adwordsData[item][lang_flag]);
+        var classN = '.' + item;
+        $(classN).html(adwordsData[item][lang_flag]);
     }
+
 
     //首页招聘信息
     for(item in jobsData) {
@@ -41,10 +43,7 @@ function contentWrite() {
     }
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
-    for(item in adwordsData) {
-        var classN = '.' + item;
-        $(classN).html(adwordsData[item][lang_flag]);
-    }
+
     //首页联系我们
     $('#add').html(campnyInfo.add[lang_flag]);
     $('#tel').html(campnyInfo.tel);

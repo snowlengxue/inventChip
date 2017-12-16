@@ -11,6 +11,10 @@ section.about {
     }
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 /* ==================================================
   招聘信息样式
   ================================================== */
@@ -23,7 +27,10 @@ section.bg-gradient-vertical {
 
 .join,
 .join p,
-.more a {
+a.more,
+.footer-nav ul li a,
+a.title,
+.footer-nav {
     color: #fff;
 }
 
@@ -46,9 +53,22 @@ section.bg-gradient-vertical {
      border: 0px;
 }
 
+/*招聘信息*/
 .jobmore {
     width: 100%;
     text-align: right;
     margin: 0;
 }
+/*首页底部footer*/
+.footer-nav ul li {
+    list-style: none;
+}
 
+.footer-nav ul li a:hover,
+a.title:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-nav ul li:first-child {
+    margin-bottom: 15px;
+}
