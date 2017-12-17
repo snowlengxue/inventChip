@@ -87,7 +87,7 @@ var adwordsData = {
     "jobA" : ['工作地点：','Workplace:'],
     "resume" : ['简历投递：','Submit Resume:'],
 
-    //about页面详情
+    //about页面-公司简介
     "pro-p1" : ['P1 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','profile-contentprofile-contentprofile-contentprofile-contentpr' +
     'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
     'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
@@ -117,7 +117,57 @@ var adwordsData = {
     'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
     'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
     'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+
+    //about页面-总经理致辞
+    "spe-p1" : ['总经理致辞P1 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "spe-p2" : ['总经理致辞P2 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "spe-p3" : ['总经理致辞P3 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "spe-p4" : ['总经理致辞P4 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "spe-p5" : ['总经理致辞P5 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "spe-p6" : ['总经理致辞P6 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+
+    //about页面-价值观
+    "val-p1" : ['价值观P1 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Values-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
+    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "val-p2" : ['价值观P2 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Values-contentprofile-contentprofile-contentprofile-contentpr' +
+    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
+    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
+    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
     'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content']
+
+    //about页面-时间轴
+    // "timeline-day" : ['13','13'],
+    // "timeline-month-cn" : ['4月','APR'],
+    // "timeline-month-cn" : ['4月','APR'],
+
 };
 
 var jobsData = {
@@ -226,7 +276,29 @@ var campnyInfo = {
 /* ==================================================
     关于我们
   ================================================== */
+//时间轴
 
+var timelineData = {
+
+    //日期不分中英文
+    "timeline-day" : ['6','5','4','3','2','1'],
+    "timeline-date" : ['2017/6/20','2017/5/20','2017/4/20','2017/3/20','2017/2/20','2017/1/20'],
+    //月份不分左右侧
+    "timeline-month-cn" : ['6月','5月','4月','3月','2月','1月'],
+    "timeline-month-en" : ['JUN','MAY','APR','MAR','FEB','JAN'],
+    //右侧标题
+    "timeline-cap-right-cn" : ['右侧大事记6','右侧大事记4','右侧大事记2'],
+    "timeline-cap-right-en" : ['RIGHT6','RIGHT4','RIGHT2'],
+    //左侧标题
+    "timeline-cap-left-cn" : ['左侧大事记5','左侧大事记3','左侧大事记1'],
+    "timeline-cap-left-en" : ['LEFT5','LEFT3','LEFT1'],
+    //右侧内容
+    "timeline-content-right-cn" : ['右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多6','右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多4','右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多2'],
+    "timeline-content-right-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+    //左侧内容
+    "timeline-content-left-cn" : ['左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多5','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多3','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多1'],
+    "timeline-content-left-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.']
+};
 
 
 

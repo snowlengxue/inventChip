@@ -48,9 +48,5 @@ function contentWrite() {
     $('#tel').html(campnyInfo.tel);
     $('#email').html(campnyInfo.email);
     $('#frontPage').html(frontPage[lang_flag]);
-/* ==================================================
-    关于我们
-================================================== */
-
 };
 
