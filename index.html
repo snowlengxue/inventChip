@@ -46,13 +46,14 @@
 <body>
   <!-- Page Content
     ================================================== -->
+  <!--TODO：IE浏览器适配，测试其他浏览器适配-->
   <!-- Hero -->
 
   <section class="hero">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12">
-          <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/logo.png"></a>
+          <a class="hero-brand" href="index.html" title="Home"><img alt="Logo" src="img/logo.png"></a>
         </div>
       </div>
 
@@ -71,16 +72,16 @@
   <header id="header">
     <div class="container">
 
-      <div id="logo" class="pull-left">
-        <a href="index.html"><img src="img/logo-nav.png" alt="" title="" /></img></a>
+      <div id="logo" class="pull-left logo">
+        <!--<a href="index.html"><img src="img/logo-nav.png" alt="" title="" /></img></a>-->
         <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">InventChip</a></h1>-->
+        <h1><a href="#hero">IVCT</a></h1>
       </div>
 <!--todo: width 小于1000px 时导航栏显示不正常-->
 <!--todo: 鼠标滑过菜单后，二级子菜单不消失，或消失过慢-->
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a class="menu-has-children company" href="#"></a>
+          <li><a class="menu-has-children company" href="pages/about.html"></a>
             <ul>
               <li><a class="profile"　href="#"></a></li>
               <li><a class="speech"　href="#"></a></li>
@@ -144,6 +145,7 @@
   <!-- /About 关于瞻芯-->
 
   <!-- Parallax 产品技术-->
+  <!--todo:屏幕宽度缩小后高度需要调整-->
   <section class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg3.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
     <div class="container">
       <h2 class="captionPT"></h2>
@@ -401,6 +403,7 @@
   </section>
 
   <footer class="site-footer">
+    <!--TODO：footer手机屏幕不友好，优化项目，优先级低-->
     <div class="bottom">
       <div class="container">
         <div class="row">

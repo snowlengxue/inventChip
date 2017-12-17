@@ -88,3 +88,13 @@ a.title:hover {
 .scrolltop span {
     vertical-align: middle;
 }
+
+/* ==================================================
+  about 页面样式
+  ================================================== */
+
+.banner {
+    height: 500px;
+    background-image: url("../img/cover3.jpg");
+    background-size: cover;
+}
