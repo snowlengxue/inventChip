@@ -10,6 +10,9 @@ $('.en').click(function(){
 });
 
 function contentWrite() {
+/* ==================================================
+    首页
+================================================== */
     $('.title').html(title[lang_flag]);
     $('.cn').html(cn[lang_flag]+'/');
     $('.en').html(en[lang_flag]);
@@ -45,5 +48,9 @@ function contentWrite() {
     $('#tel').html(campnyInfo.tel);
     $('#email').html(campnyInfo.email);
     $('#frontPage').html(frontPage[lang_flag]);
+/* ==================================================
+    关于我们
+================================================== */
+
 };
 
