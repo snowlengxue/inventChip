@@ -164,7 +164,7 @@ a:hover {
 ================================================== */
 #header {
   background:#004e92;
-  height: 70px;
+  /*height: 70px;*/
 }
 
 #header .logo {
