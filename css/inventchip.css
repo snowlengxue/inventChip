@@ -110,3 +110,34 @@ body {
 .content {
     min-height: 800px;
 }
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #fff;
+    background-color: rgba(0,78,149, 0.7);
+    border-right-color: transparent;
+}
+
+.nav-tabs > li > a {
+    border-radius: 4px 0 0 4px;
+}
+
+.nav-tabs > li:hover,
+.nav-tabs > li > a:hover {
+    background-color: #fff;
+    border: none;
+}
+
+.profile-img,
+.profile-content {
+    margin-bottom: 2em;
+}
+
+.profile-content {
+
+}
