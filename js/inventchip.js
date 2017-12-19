@@ -1,5 +1,9 @@
 
 $(document).ready(function() {
+    /* ==================================================
+    about页面的动效及“回到顶层”按钮
+================================================== */
+
 
     // Initiate superfish on nav menu
     $('.nav-menu').superfish({
@@ -87,5 +91,40 @@ $(document).ready(function() {
         }, 1000, 'easeInOutExpo');
         return false;
     });
+
+    //获取参数 get parm
+    var url = location.href;
+    var tmp = url.split("?")[1];
+    var parm = tmp.split("=")[1];
+    $("li[class^='about_']").removeClass('active');
+    $('.tab-pane').removeClass('active in');
+    switch(parm) {
+        case "pro":
+            $('#about_pro').addClass('active');
+            $('#profile').addClass('active in');
+            break;
+        case "spe":
+            $('#about_spe').addClass('active');
+            $('#speech').addClass('active in');
+            break;
+        case "val":
+            $('#about_val').addClass('active');
+            $('#values').addClass('active in');
+            break;
+        case "org":
+            $('#about_org').addClass('active');
+            $('#org').addClass('active in');
+            break;
+        case "eve":
+            $('#about_eve').addClass('active');
+            $('#events').addClass('active in');
+            break;
+        case "new":
+            $('#about_new').addClass('active');
+            $('#news').addClass('active in');
+            break;
+    }
+
+
 
 });
