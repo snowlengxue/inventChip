@@ -97,6 +97,7 @@ $(document).ready(function() {
     var tmp = url.split("?")[1];
     var parm = tmp.split("=")[1];
     $("li[class^='about_']").removeClass('active');
+    $("li[class^='tech_']").removeClass('active');
     $('.tab-pane').removeClass('active in');
     switch(parm) {
         case "pro":
@@ -122,6 +123,23 @@ $(document).ready(function() {
         case "new":
             $('#about_new').addClass('active');
             $('#news').addClass('active in');
+            break;
+        //technology 页面
+        case "WBG":
+            $('#about_pro').addClass('active');
+            $('#profile').addClass('active in');
+            break;
+        case "power":
+            $('#about_spe').addClass('active');
+            $('#speech').addClass('active in');
+            break;
+        case "gate":
+            $('#about_val').addClass('active');
+            $('#values').addClass('active in');
+            break;
+        case "IPM":
+            $('#about_org').addClass('active');
+            $('#org').addClass('active in');
             break;
     }
 
