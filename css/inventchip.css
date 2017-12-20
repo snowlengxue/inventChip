@@ -267,3 +267,14 @@ body {
 a.panel-heading {
     color: #000 !important;
 }
+/* ==================================================
+  application 页面
+  ================================================== */
+.caption {
+    line-height: 3em;
+    font-size: 24px;
+}
+
+/*.caption div {*/
+    /*font-size: 24px;*/
+/*}*/
