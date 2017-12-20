@@ -126,20 +126,20 @@ $(document).ready(function() {
             break;
         //technology 页面
         case "WBG":
-            $('#about_pro').addClass('active');
-            $('#profile').addClass('active in');
+            $('#tech_WBG').addClass('active');
+            $('#WBG').addClass('active in');
             break;
         case "power":
-            $('#about_spe').addClass('active');
-            $('#speech').addClass('active in');
+            $('#tech_power').addClass('active');
+            $('#power').addClass('active in');
             break;
         case "gate":
-            $('#about_val').addClass('active');
-            $('#values').addClass('active in');
+            $('#tech_gate').addClass('active');
+            $('#gate').addClass('active in');
             break;
         case "IPM":
-            $('#about_org').addClass('active');
-            $('#org').addClass('active in');
+            $('#tech_IPM').addClass('active');
+            $('#IPM').addClass('active in');
             break;
     }
 
