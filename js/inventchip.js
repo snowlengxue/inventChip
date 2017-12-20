@@ -96,53 +96,60 @@ $(document).ready(function() {
     var url = location.href;
     var tmp = url.split("?")[1];
     var parm = tmp.split("=")[1];
+
     $("li[class^='about_']").removeClass('active');
     $("li[class^='tech_']").removeClass('active');
+    $("li[class^='product_']").removeClass('active');
     $('.tab-pane').removeClass('active in');
+
     switch(parm) {
-        case "pro":
-            $('#about_pro').addClass('active');
-            $('#profile').addClass('active in');
+        case "profile":
+            active('profile');
             break;
-        case "spe":
-            $('#about_spe').addClass('active');
-            $('#speech').addClass('active in');
+        case "speech":
+            active('speech');
             break;
-        case "val":
-            $('#about_val').addClass('active');
-            $('#values').addClass('active in');
+        case "values":
+            active('values');
             break;
         case "org":
-            $('#about_org').addClass('active');
-            $('#org').addClass('active in');
+            active('org');
             break;
-        case "eve":
-            $('#about_eve').addClass('active');
-            $('#events').addClass('active in');
+        case "events":
+            active('events');
             break;
-        case "new":
-            $('#about_new').addClass('active');
-            $('#news').addClass('active in');
+        case "news":
+            active('news');
             break;
         //technology 页面
         case "WBG":
-            $('#tech_WBG').addClass('active');
-            $('#WBG').addClass('active in');
+            active('WBG');
             break;
         case "power":
-            $('#tech_power').addClass('active');
-            $('#power').addClass('active in');
+            active('power');
             break;
         case "gate":
-            $('#tech_gate').addClass('active');
-            $('#gate').addClass('active in');
+            active('gate');
             break;
         case "IPM":
-            $('#tech_IPM').addClass('active');
-            $('#IPM').addClass('active in');
+            active('IPM');
+            break;
+        //product 页面
+        case "1200V":
+            active('1200V');
+            break;
+        case "650V":
+            active('650V');
+            break;
+        case "gateDriver":
+            active('gateDriver');
             break;
     }
-
-
-
 });
+
+function active(id) {
+    $('#about_' + id).addClass('active');
+    $('#tech_' + id).addClass('active');
+    $('#product_' + id).addClass('active');
+    $('#' + id).addClass('active in');
+}
