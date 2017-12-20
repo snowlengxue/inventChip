@@ -1,11 +1,29 @@
-var lang_flag = 0;
-contentWrite();
+var lang_flag;
+if(!(window.localStorage.lang_flag)) {
+    window.localStorage.lang_flag = '0';
+    lang_flag = 0;
+    contentWrite();
+}else if (window.localStorage.lang_flag == '1') {
+    window.localStorage.lang_flag = '1';
+    lang_flag = 1;
+    contentWrite();
+}else {
+    window.localStorage.lang_flag = '0';
+    lang_flag = 0;
+    contentWrite();
+}
+
+
+// var lang_flag = 0;
+// contentWrite();
 $('.cn').click(function(){
     lang_flag = 0;
+    window.localStorage.lang_flag = '0';
     contentWrite();
 });
 $('.en').click(function(){
     lang_flag = 1;
+    window.localStorage.lang_flag = '1';
     contentWrite();
 });
 
@@ -13,6 +31,8 @@ function contentWrite() {
 /* ==================================================
     首页
 ================================================== */
+
+
     $('.title').html(title[lang_flag]);
     $('.cn').html(cn[lang_flag]+'/');
     $('.en').html(en[lang_flag]);
