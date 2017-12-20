@@ -117,8 +117,9 @@ body {
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-    color: #fff;
+.nav-tabs > li.active > a:focus,
+.panel > a.panel-heading:hover {
+    color: #fff !important;
     background-color: rgba(0,78,149, 0.7);
     border-right-color: transparent;
 }
@@ -262,6 +263,7 @@ body {
   about 页面-行业信息
   ================================================== */
 
-.color-black {
-    color: #000;
+.color-black,
+a.panel-heading {
+    color: #000 !important;
 }
