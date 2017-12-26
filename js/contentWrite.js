@@ -13,9 +13,6 @@ if(!(window.localStorage.lang_flag)) {
     contentWrite();
 }
 
-
-// var lang_flag = 0;
-// contentWrite();
 $('.cn').click(function(){
     lang_flag = 0;
     window.localStorage.lang_flag = '0';
@@ -43,24 +40,49 @@ function contentWrite() {
     //首页大banner 了解详情按钮
     $('#getStarted').html(hero_getStarted[lang_flag]);
     //首页导航栏
-    for(item in navData) {
-        for(i in navData[item]) {
+    // for(item in navData) {
+    //     for(i in navData[item]) {
+    //         var classN = '.' + i;
+    //         $(classN).html(navData[item][i][lang_flag]);
+    //     }
+    // }
+
+    //ie 浏览器 首页导航栏
+    $.each(navData,function (item) {
+        $.each(navData[item],function (i) {
             var classN = '.' + i;
-            $(classN).html(navData[item][i][lang_flag]);
-        }
-    }
+            $(classN).html(navData[item][i][lang_flag])
+        });
+    });
+
     //首页各个板块标题
-    for(item in adwordsData) {
+    $.each(adwordsData,function(item) {
         var classN = '.' + item;
         $(classN).html(adwordsData[item][lang_flag]);
-    }
+    });
+
+
+    // for(item in adwordsData) {
+    //     var classN = '.' + item;
+    //     $(classN).html(adwordsData[item][lang_flag]);
+    // }
+
     //首页招聘信息
-    for(item in jobsData) {
-        for(i in jobsData[item]) {
+    $.each(jobsData,function (item) {
+        $.each(jobsData[item],function (i) {
             var id = '#' + i;
             $(id).html(jobsData[item][i][lang_flag]);
-        }
-    }
+        });
+    });
+
+
+
+    // for(item in jobsData) {
+    //     for(i in jobsData[item]) {
+    //         var id = '#' + i;
+    //         $(id).html(jobsData[item][i][lang_flag]);
+    //     }
+    // }
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
     //首页联系我们
