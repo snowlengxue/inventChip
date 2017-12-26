@@ -51,12 +51,10 @@ var navData = {
 
 var adwordsData = {
     //首页副标题
-    "ad_inventChip": ['inventChip公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
-    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
-    'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
-    'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
-    'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
-    'Menandritemporibus an duo.'],
+    "ad_inventChip": ['上海瞻芯电子科技有限公司——位于东海之滨，滴水湖畔的临港科技城园区——是一家由海归博士' +
+    '领衔的高科技初创企业。成立于2017年7月17日，汇聚了海内外资深的工艺器件、电路设计、系统应用和市场推广方面核心成员。', 'A VC' +
+    ' funded, high profile startup with a core team covering process, device, IC design, system & ' +
+    'application, and marketing. Founded on Jul 17, 2017 in the dynamic new city, Lingang, Shanghai.'],
 
     "ad_PT": ['productTechnology公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
     '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
@@ -88,36 +86,10 @@ var adwordsData = {
     "resume" : ['简历投递：','Submit Resume:'],
 
     //about页面-公司简介
-    "pro-p1" : ['P1 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','profile-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "pro-p2" : ['P2 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','profile-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "pro-p3" : ['P3 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','profile-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "pro-p4" : ['P4 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','profile-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "pro-p5" : ['P5 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','profile-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "pro-p6" : ['P6 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','profile-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "pro-p1" : ['上海瞻芯电子科技有限公司——位于东海之滨，滴水湖畔的临港科技城园区——是一家由海归博士领衔的高科技初创企业。成立于' +
+    '2017年7月17日，汇聚了海内外资深的工艺器件、电路设计、系统应用和市场推广方面核心成员。','A VC funded, high profile startup ' +
+    'with a core team covering process, device, IC design, system & application, and marketing. Founded on Jul 17, ' +
+    '2017 in the dynamic new city, Lingang, Shanghai. '],
 
     //about页面-总经理致辞
     "spe-p1" : ['总经理致辞P1 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
@@ -152,16 +124,11 @@ var adwordsData = {
     'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
 
     //about页面-价值观
-    "val-p1" : ['价值观P1 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Values-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "val-p2" : ['价值观P2 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Values-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content']
+    "val-p1" : ['使命：致力于开发碳化硅基功率集成电路和应用模块的产品，为电源和电驱动系统的小型化、高效化和轻量化，提供完整的系统应用解决方案。','Mission: ' +
+    'to develop high performance low cost SiC power semiconductor and module products; to enable  minimization, higher efficiency, and lighter ' +
+    'weight of  power converter and inverter system with our turn-key semiconductor solutions.'],
+    "val-p2" : ['',''],
+    "val-p3" : ['','']
 
     //about页面-时间轴
     // "timeline-day" : ['13','13'],
