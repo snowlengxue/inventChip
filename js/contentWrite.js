@@ -76,7 +76,6 @@ function contentWrite() {
     });
 
 
-
     // for(item in jobsData) {
     //     for(i in jobsData[item]) {
     //         var id = '#' + i;
@@ -85,6 +84,20 @@ function contentWrite() {
     // }
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
+
+    //行业信息
+    $.each(newsData,function (item) {
+        var parentId = '#' + item;
+        $.each(newsData[item],function (i) {
+            var parograph = '.' + i;
+            $(parentId).find(parograph).html(newsData[item][i][lang_flag]);
+        });
+    });
+
+
+
+
+
     //首页联系我们
     $('#add').html(campnyInfo.add[lang_flag]);
     $('#tel').html(campnyInfo.tel);
