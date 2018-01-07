@@ -3,8 +3,8 @@
   ================================================== */
 
 var title = ['上海瞻芯电子科技有限公司','InventChip Technology Co.,Ltd.'];
-var cn = ['中文','CN'];
-var en = ['EN','EN'];
+var cn = ['中文','中文'];
+var en = ['English','English'];
 var frontPage = ['首页','Home'];
 //首页hero标题
 var hero_caption = ['电源和电驱动半导体解决方案','Power and Electrically Driven Semiconductior Solutions'];
@@ -127,8 +127,8 @@ var adwordsData = {
     "val-p1" : ['使命：致力于开发碳化硅基功率集成电路和应用模块的产品，为电源和电驱动系统的小型化、高效化和轻量化，提供完整的系统应用解决方案。','Mission: ' +
     'to develop high performance low cost SiC power semiconductor and module products; to enable  minimization, higher efficiency, and lighter ' +
     'weight of  power converter and inverter system with our turn-key semiconductor solutions.'],
-    "val-p2" : ['',''],
-    "val-p3" : ['','']
+    "val-p2" : ['愿景： 以宽禁带半导体对功率器件的革新影响为契机，从Fabless发展成为世界一流的高性能功率和模拟电路及解决方案的IDM。','Vision: starting from Fabless while aiming to be the world class IDM focusing on high performance power and analog semiconductors by embracing opportunities of disruptive impact of WBG semiconductor power devices. '],
+    "val-p3" : ['价值观：坚持以客户和市场为导向，以诚信、包容、专注、执着为工作理念，持续创新，放眼世界，以高质量的产品和服务永无止境地改善人类生活。','\tCorporate Values: focusing on customer demands and marketing-oriented applications; honest, open-minded, concentrated, persevere work ethics; continuous innovation, global mindset, to improve human life endlessly with high quality products and service.']
 
     //about页面-时间轴
     // "timeline-day" : ['13','13'],
