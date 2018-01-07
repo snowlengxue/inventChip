@@ -30,10 +30,10 @@ var navData = {
         "news":['行业信息','More news']
     },
     "technology": {
-        "WBG":['宽禁带半导体','WBG semiconductor'],
-        "power":['功率器件','SiC power device SiC'],
-        "gate":['门驱动电路','SiC gate driver SiC'],
-        "IPM":['功率模块','SiC IPM SiC']
+        "WBG":['SiC 宽禁带半导体','SiC WBG semiconductor'],
+        "power":['SiC 功率器件','SiC power device SiC'],
+        "gate":['SiC 门驱动电路','SiC gate driver SiC'],
+        "IPM":['SiC 功率模块','SiC IPM SiC']
     },
     "product": {
         "1200V":['1200V碳化硅MOSFET产品','1200V Carborundum MOSFET'],
@@ -101,7 +101,11 @@ var adwordsData = {
     'to develop high performance low cost SiC power semiconductor and module products; to enable  minimization, higher efficiency, and lighter ' +
     'weight of  power converter and inverter system with our turn-key semiconductor solutions.'],
     "val-p2" : ['愿景： 以宽禁带半导体对功率器件的革新影响为契机，从Fabless发展成为世界一流的高性能功率和模拟电路及解决方案的IDM。','Vision: starting from Fabless while aiming to be the world class IDM focusing on high performance power and analog semiconductors by embracing opportunities of disruptive impact of WBG semiconductor power devices. '],
-    "val-p3" : ['价值观：坚持以客户和市场为导向，以诚信、包容、专注、执着为工作理念，持续创新，放眼世界，以高质量的产品和服务永无止境地改善人类生活。','\tCorporate Values: focusing on customer demands and marketing-oriented applications; honest, open-minded, concentrated, persevere work ethics; continuous innovation, global mindset, to improve human life endlessly with high quality products and service.']
+    "val-p3" : ['价值观：坚持以客户和市场为导向，以诚信、包容、专注、执着为工作理念，持续创新，放眼世界，以高质量的产品和服务永无止境地改善人类生活。','Corporate Values: focusing on customer demands and marketing-oriented applications; honest, open-minded, concentrated, persevere work ethics; continuous innovation, global mindset, to improve human life endlessly with high quality products and service.'],
+
+    // technology 页面-宽禁带半导体
+    "WBG-P1" : ['SIC属于“宽禁带”半导体，物理特性与硅有很大不同。单晶碳化硅（SIC）比单晶硅（SI）具有很多优越的物理特性，例如（1）大约10倍的电场强度；（2）大约高3倍的热导率；（3）大约宽3倍禁带宽度；（4）大约高一倍的饱和漂移速度。','SIC is a "wide-bandgap" semiconductor and has very different physical properties from silicon. Single crystal silicon carbide (SIC) has many superior physical properties than single crystal silicon (SI), such as (1) about 10 times the electric field strength; (2) about 3 times higher thermal conductivity; (3) Times the band gap; (4) about double the saturation drift speed.']
+
 };
 
 var jobsData = {
@@ -241,6 +245,7 @@ var timelineData = {
     // "timeline-content-left-cn" : ['左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多5','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多3','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多1'],
     // "timeline-content-left-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.']
 };
+
 
 //行业新闻
 var newsData = {
