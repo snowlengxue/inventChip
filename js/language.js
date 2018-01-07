@@ -56,14 +56,14 @@ var adwordsData = {
     ' funded, high profile startup with a core team covering process, device, IC design, system & ' +
     'application, and marketing. Founded on Jul 17, 2017 in the dynamic new city, Lingang, Shanghai.'],
 
-    "ad_PT": ['productTechnology公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
+    "ad_PT": ['瞻芯电子致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
     '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
     'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
     'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
     'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
     'Menandritemporibus an duo.'],
 
-    "ad_App": ['Application公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
+    "ad_App": ['瞻芯电子致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
     '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
     'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
     'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
@@ -234,7 +234,7 @@ var more = ['了解更多','Learn More'];
 
 //首页联系我们
 var campnyInfo = {
-    "add": ['上海市浦东新区南汇新城镇海基六路218弄15号楼304室','Suite 304, Building 15, Lane 218, Haiji No.6 Road, Pudong New District, Shanghai 201306, P.R. China'],
+    "add": ['上海市浦东新区南汇新城镇海洋一路333号8号楼3楼','Building 8-3F, No. 333, Ocean No. 1 Road, Nanhui New City Town, Pudong New District, Shanghai 201306, P.R.China'],
     "tel": '+86 021-2093 6199',
     "email": 'inventchip@inventchip.com.cn'
 };
