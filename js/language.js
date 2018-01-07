@@ -126,97 +126,108 @@ var adwordsData = {
 };
 
 var jobsData = {
-    //招聘职位名称
-    "jobN" : {
-        "jobN1" : ['电子工程师1','Electronic Engineer1'],
-        "jobN2" : ['电子工程师2','Electronic Engineer2'],
-        "jobN3" : ['电子工程师3','Electronic Engineer3'],
-        "jobN4" : ['电子工程师4','Electronic Engineer4']
+    "job1" : {
+        //招聘职位名称
+        "jobN" :['版图设计工程师','Layout design engineer'],
+        //招聘信息职位描述
+        "jobD-p1" : ['负责高性能集成电路版图设计；','Physical design and layout of high performance power integrated circuits.'],
+        "jobD-p2" : ['顶层版图布局规划以及芯片面积优化；','Top level layout floorplanning and die size optimization.'],
+        "jobD-p3" : ['高效电路模块版图设计以及面积优化；','Cosft effective implementing of IC circuit blocks.'],
+        "jobD-p4" : ['负责集成电路版图验证，确保DRC/LVS通过；','Physical layout verification including DRC/LVS,etc.'],
+        "jobD-p5" : ['在设计和流片过程中，与IC设计工程师，工艺工程师以及工厂密切配合','Interfacting with circuit designers, process engineers and maks designers during product development.'],
+        "jobD-p6" : ['整理总结项目及产品开发各个阶段的文档资料；',''],
+        //招聘信息职位要求
+        "jobR-p1" : ['态度严谨，上进心强；','Bachelor degree or above in EE，Microelectronics or related fields'],
+        "jobR-p2" : ['电子、微电子或相关专业本科以上学历','Minimum 5 years of working experience of analog IC layout is preferred'],
+        "jobR-p3" : ['5年及以上集成电路版图设计工作经验 ','Familiar with details of IC layout'],
+        "jobR-p4" : ['熟悉集成电路工艺，半导体器件的版图要求；','Familiar with Cadence design environment'],
+        "jobR-p5" : ['熟练使用主流EDA软件工具（Cadence），Linux操作熟练，有Skill脚本编程能力更佳','Good communication skills and cooperative spirits'],
+        "jobR-p6" : ['具备良好的英文沟通能力和团队合作精神','IC layout experience in power IC area is preferred.'],
+        "jobR-p7" : ['有电源IC相关的版图设计经验','']
     },
-
-    //招聘信息职位描述
-    "jobD" : {
-        "jobD1" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
-        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
-        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.'],
-        "jobD2" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
-        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
-        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.'],
-        "jobD3" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
-        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
-        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.'],
-        "jobD4" : ['电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位' +
-        '描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述' +
-        '电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述电子工程师职位描述','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.']
+    "job2" : {
+        //招聘职位名称
+        "jobN" :['模拟IC设计工程师','Analog IC Design Engineer'],
+        //招聘信息职位描述
+        "jobD-p1" : ['1. 与系统、器件、封装工程师共同完成新产品定义和系统设计、系统仿真；',''],
+        "jobD-p2" : ['2. 负责模块级和芯片级设计、仿真（模拟电路、数模混合的设计仿真），指导芯片版图设计；',''],
+        "jobD-p3" : ['3. 与测试工程师沟通，制定标准格式的中测、成测规范；',''],
+        "jobD-p4" : ['4. 与系统和应用工程师沟通，制定详细的系统应用测试计划；',''],
+        "jobD-p5" : ['5. 与可靠性工程师沟通，完成芯片的可靠性试验；',''],
+        "jobD-p6" : ['6. 负责产品的调试和失效分析；',''],
+        "jobD-p7" : ['7. 整理总结项目及产品开发各个阶段的文档资料；',''],
+        "jobD-p8" : ['8. 积极回应客户的反馈，支持配合客户需求；',''],
+        "jobD-p9" : ['9. 密切关注和分析行业有竞争力芯片和相关技术发展趋势。',''],
+        //招聘信息职位要求
+        "jobR-p1" : ['1. 至少5年以上工业界模拟IC设计和流片经验；',''],
+        "jobR-p2" : ['2. 能熟练设计常见的模拟和混合电路，包括signal/power amplifiers, LDO, charge pumps, bootstrap, comparators, bandgap references等；',''],
+        "jobR-p3" : ['3. 精通各种半导体器件的物理特性和版图要求；',''],
+        "jobR-p4" : ['4. 了解常见的工艺、设计、量产测试和系统应用上的问题；',''],
+        "jobR-p5" : ['5. 有独立设计并大规模量产1个以上芯片产品的经验；',''],
+        "jobR-p6" : ['6. 了解基本的开关电源电路拓扑；',''],
+        "jobR-p7" : ['7. 有low side/high side或者隔离驱动电路设计经验者优先；',''],
+        "jobR-p8" : ['8.有高压（600V或以上）IC设计、应用以及智能功率模块经验者优先。','']
     },
-    //招聘信息职位要求
-    "jobR" : {
-        "jobR1" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.'],
-        "jobR2" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.'],
-        "jobR3" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.'],
-        "jobR4" : ['电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求电子工程师职位要求' +
-        '电子工程师职位要求电子工程师职位要求','Description of the position of ' +
-        'electronic engineer,Description of the position of electronic engineer,Description of the position of electronic ' +
-        'engineer,Description of the position of electronic engineer,Description of the position of electronic engineer,D' +
-        'escription of the position of electronic engineer,Description of the position of electronic engineer,Description ' +
-        'of the position of electronic engineerDescription of the position of electronic engineer,Description of the position' +
-        ' of electronic engineerDescription of the position of electronic engineerDescription of the position of ' +
-        'electronic engineer.']
+    "job3" : {
+        //招聘职位名称
+        "jobN" :['财务主管','Financial Officer'],
+        //招聘信息职位描述
+        "jobD-p1" : ['1. 负责填制的日常财务收支、账册、成本表、往来账；',''],
+        "jobD-p2" : ['2. 负责建立和完善财务工作流程、规范和制度；',''],
+        "jobD-p3" : ['3. 负责编制财务报表，并对接外部审计事务；',''],
+        "jobD-p4" : ['4. 参与编制资金预算，拟订资金筹措和使用方案，提升资金使用效率；',''],
+        "jobD-p5" : ['5. 负责编制财务分析报告，为公司提供决策依据；',''],
+        "jobD-p6" : ['6. 负责筹划合理纳税，及纳税申报；',''],
+        "jobD-p7" : ['7. 负责公司内控管理，参与审核重大经济合同，规避法规风险；',''],
+        "jobD-p8" : ['8. 协助领导处理其他临时工作。',''],
+        //招聘信息职位要求
+        "jobR-p1" : ['1. 本科以上学历，经济管理、财会相关专业；',''],
+        "jobR-p2" : ['2. 3年以上财会工作或1年以上主管会计工作经验；',''],
+        "jobR-p3" : ['3. 熟悉财务相关法律法规、会计准则和企业内控制度；',''],
+        "jobR-p4" : ['4. 熟悉科研型企业财税政策或相关经验者优先；',''],
+        "jobR-p5" : ['5. 具有的财务信息统计、预测、分析能力；',''],
+        "jobR-p6" : ['6. 计划与执行能力强，能快速响应；',''],
+        "jobR-p7" : ['7. 熟练使用财务软件、OFFICE软件。','']
+    },
+    "job4" : {
+        //招聘职位名称
+        "jobN" :['电力电子测试助理（实习生）','Power Electronics Test Assistant (Intern)'],
+        //招聘信息职位描述
+        "jobD-p1" : ['1. 完成功率电子系统的参考设计、调试和验证；',''],
+        "jobD-p2" : ['2. 完成功率器件动态及可靠性测试；',''],
+        "jobD-p3" : ['3. 整理项目及产品开发期间的文档资料；',''],
+        "jobD-p4" : ['4. 协助管理测试实验室；',''],
+        //招聘信息职位要求
+        "jobR-p1" : ['1. 研究生学历优先;',''],
+        "jobR-p2" : ['2. 动手能力强，善于解决问题；',''],
+        "jobR-p3" : ['3. 电力电子、电子信息相关专业；',''],
+        "jobR-p4" : ['4. 熟悉MCU/DSP编程、Labview编程、PCB layout；',''],
+        "jobR-p5" : ['5. 有AC/DC和DC-DC相关电路设计、模拟经历者优先；',''],
+        "jobR-p6" : ['6. 有磁性元件设计经历者优先。','']
     }
-}
+    //例子
+    // "job5" : {
+    //     //招聘职位名称
+    //     "jobN" :['',''],
+    //     //招聘信息职位描述
+    //     "jobD-p1" : ['',''],
+    //     "jobD-p2" : ['',''],
+    //     "jobD-p3" : ['',''],
+    //     "jobD-p4" : ['',''],
+    //     "jobD-p5" : ['',''],
+    //     "jobD-p6" : ['',''],
+    //     //招聘信息职位要求
+    //     "jobR-p1" : ['',''],
+    //     "jobR-p2" : ['',''],
+    //     "jobR-p3" : ['',''],
+    //     "jobR-p4" : ['',''],
+    //     "jobR-p5" : ['',''],
+    //     "jobR-p6" : ['',''],
+    //     "jobR-p7" : ['','']
+    // },
+
+
+};
 
 //了解更多
 var more = ['了解更多','Learn More'];

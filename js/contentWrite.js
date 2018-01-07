@@ -68,10 +68,19 @@ function contentWrite() {
     // }
 
     //首页招聘信息
+    // $.each(jobsData,function (item) {
+    //     $.each(jobsData[item],function (i) {
+    //         var id = '#' + i;
+    //         $(id).html(jobsData[item][i][lang_flag]);
+    //     });
+    // });
+
+    //首页招聘信息
     $.each(jobsData,function (item) {
+        var parentId = '#' + item;
         $.each(jobsData[item],function (i) {
-            var id = '#' + i;
-            $(id).html(jobsData[item][i][lang_flag]);
+            var parograph = '.' + i;
+            $(parentId).find(parograph).html(jobsData[item][i][lang_flag]);
         });
     });
 
