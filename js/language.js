@@ -72,13 +72,12 @@ var adwordsData = {
 
     //首页行业应用图片说明文字
     "app_1" : ['新能源汽车','New Energy Automobile'],
-    "app_2" : ['新能源发电','New Energy Power Generation'],
-    "app_3" : ['轨道交通','Railway Traffic'],
+    "app_2" : ['分布式能源','Distributed Energy'],
+    "app_3" : ['轨道交通','Rail'],
     "app_4" : ['智能电网','Smart Power Grids'],
-    "app_5" : ['节能环保','Energy Conservation'],
-    "app_6" : ['轨道交通','Railway Traffic'],
-    "app_7" : ['新能源汽车','New Energy Automobile'],
-    "app_8" : ['新能源','New Energy'],
+    "app_5" : ['充电桩','Charging Pile'],
+    "app_6" : ['数据中心','Data Center'],
+
     //招聘信息标题
     "jobD" : ['职位描述：','Description:'],
     "jobR" : ['职位要求：','Requirements:'],
