@@ -92,36 +92,9 @@ var adwordsData = {
     '2017 in the dynamic new city, Lingang, Shanghai. '],
 
     //about页面-总经理致辞
-    "spe-p1" : ['总经理致辞P1 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "spe-p2" : ['总经理致辞P2 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "spe-p3" : ['总经理致辞P3 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "spe-p4" : ['总经理致辞P4 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "spe-p5" : ['总经理致辞P5 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
-    "spe-p6" : ['总经理致辞P6 公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。公司致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。','Speech-contentprofile-contentprofile-contentprofile-contentpr' +
-    'ofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-cont' +
-    'entprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-' +
-    'contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-contentpro' +
-    'file-contentprofile-contentprofile-contentprofile-contentprofile-contentprofile-content'],
+    "spe-p1" : ['上海瞻芯电子科技有限公司是一家由海归博士领衔的高科技初创企业。成立于2017年7月17日，汇聚了海内外资深的工艺器件、电路设计、系统应用和市场推广方面核心成员。瞻芯电子致力于开发碳化硅基功率集成电路和应用模块的产品。','A VC funded, high profile startup with a core team covering process, device, IC design, system & application, and marketing. Founded on Jul 17, 2017 in the dynamic new city, Lingang, Shanghai. InventChip dedicated to develop high performance low cost SiC power semiconductor and module products; to enable  minimization, higher efficiency, and lighter weight of  power converter and inverter system with our turn-key semiconductor solutions.'],
+    "spe-p2" : ['瞻芯电子依托自身技术积累，紧跟国内新能源产业的步伐，通过自主研发、产学研合作与国际化合作相结合的方式，积极布局新能源业务。','InventChip based on its own technology accumulation, closely follow the pace of the domestic new energy industry, Zhanxin Electronics actively distributes its new energy business through a combination of independent R & D, industry-university-research cooperation and international cooperation.'],
+    "spe-p3" : ['当今社会新能源已成为全世界共同关注的话题，瞻芯电子将贯彻以人才、技术为核心、社会需求为导向、产品质量为根本、优质服务为保证的理念，为电源和电驱动系统的小型化、高效化和轻量化，提供完整的系统应用解决方案。','Today\'s new energy sources in society has become a topic of common concern throughout the world. As the core concept of Talent, Technology and Social Needs, product quality as the fundamental and quality service as the guarantee, Improve efficiency and reduce weight and provide a complete system application solution.'],
 
     //about页面-价值观
     "val-p1" : ['使命：致力于开发碳化硅基功率集成电路和应用模块的产品，为电源和电驱动系统的小型化、高效化和轻量化，提供完整的系统应用解决方案。','Mission: ' +
@@ -129,12 +102,6 @@ var adwordsData = {
     'weight of  power converter and inverter system with our turn-key semiconductor solutions.'],
     "val-p2" : ['愿景： 以宽禁带半导体对功率器件的革新影响为契机，从Fabless发展成为世界一流的高性能功率和模拟电路及解决方案的IDM。','Vision: starting from Fabless while aiming to be the world class IDM focusing on high performance power and analog semiconductors by embracing opportunities of disruptive impact of WBG semiconductor power devices. '],
     "val-p3" : ['价值观：坚持以客户和市场为导向，以诚信、包容、专注、执着为工作理念，持续创新，放眼世界，以高质量的产品和服务永无止境地改善人类生活。','\tCorporate Values: focusing on customer demands and marketing-oriented applications; honest, open-minded, concentrated, persevere work ethics; continuous innovation, global mindset, to improve human life endlessly with high quality products and service.']
-
-    //about页面-时间轴
-    // "timeline-day" : ['13','13'],
-    // "timeline-month-cn" : ['4月','APR'],
-    // "timeline-month-cn" : ['4月','APR'],
-
 };
 
 var jobsData = {
@@ -248,23 +215,31 @@ var campnyInfo = {
 var timelineData = {
 
     //日期不分中英文
-    "timeline-day" : ['6','5','4','3','2','1'],
-    "timeline-date" : ['2017/6/20','2017/5/20','2017/4/20','2017/3/20','2017/2/20','2017/1/20'],
+    // 例子："timeline-day" : ['7','5','4','3','2','1'],
+    "timeline-day" : ['17'],
+    // 例子："timeline-date" : ['2017/7/17','2017/5/20','2017/4/20','2017/3/20','2017/2/20','2017/1/20'],
+    "timeline-date" : ['2017/7/17'],
     //月份不分左右侧
-    "timeline-month-cn" : ['6月','5月','4月','3月','2月','1月'],
-    "timeline-month-en" : ['JUN','MAY','APR','MAR','FEB','JAN'],
+    //例子： "timeline-month-cn" : ['6月','5月','4月','3月','2月','1月'],
+    "timeline-month-cn" : ['7月'],
+    //例子： "timeline-month-en" : ['JUN','MAY','APR','MAR','FEB','JAN'],
+    "timeline-month-en" : ['JUL'],
     //右侧标题
-    "timeline-cap-right-cn" : ['右侧大事记6','右侧大事记4','右侧大事记2'],
-    "timeline-cap-right-en" : ['RIGHT6','RIGHT4','RIGHT2'],
+    // 例子： "timeline-cap-right-cn" : ['右侧大事记6','右侧大事记4','右侧大事记2'],
+    "timeline-cap-right-cn" : ['上海瞻芯电子科技有限公司成立'],
+    // 例子： "timeline-cap-right-en" : ['RIGHT6','RIGHT4','RIGHT2'],
+    "timeline-cap-right-en" : ['Founded'],
     //左侧标题
-    "timeline-cap-left-cn" : ['左侧大事记5','左侧大事记3','左侧大事记1'],
-    "timeline-cap-left-en" : ['LEFT5','LEFT3','LEFT1'],
+    // "timeline-cap-left-cn" : ['左侧大事记5','左侧大事记3','左侧大事记1'],
+    // "timeline-cap-left-en" : ['LEFT5','LEFT3','LEFT1'],
     //右侧内容
-    "timeline-content-right-cn" : ['右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多6','右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多4','右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多2'],
-    "timeline-content-right-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+    //例子： "timeline-content-right-cn" : ['右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多6','右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多4','右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，右侧大事记很多很多很多很多很多很多很多很多很多很多很多很多2'],
+    "timeline-content-right-cn" : ['上海瞻芯电子科技有限公司成立于2017年7月17日，位于东海之滨，滴水湖畔的临港科技城园区，是一家由海归博士领衔的高科技初创企业。'],
+    // 例子："timeline-content-right-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+    "timeline-content-right-en" : ['Founded on Jul 17, 2017 in the dynamic new city, Lingang, Shanghai.'],
     //左侧内容
-    "timeline-content-left-cn" : ['左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多5','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多3','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多1'],
-    "timeline-content-left-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.']
+    // "timeline-content-left-cn" : ['左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多5','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多3','左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多，左侧大事记很多很多很多很多很多很多很多很多很多很多很多很多1'],
+    // "timeline-content-left-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.']
 };
 
 
