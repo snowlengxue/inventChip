@@ -30,9 +30,9 @@ var navData = {
         "news":['行业信息','More news']
     },
     "technology": {
-        "WBG":['SiC 宽禁带半导体','SiC WBG semiconductor'],
-        "power":['SiC 功率器件','SiC power device SiC'],
-        "gate":['SiC 门驱动电路','SiC gate driver SiC'],
+        "WBG":['SiC 宽禁带半导体','SiC WBG Semiconductor'],
+        "power":['SiC 功率器件','SiC Power Device'],
+        "gate":['SiC MOSFET栅极驱动电路','SiC MOSFET Gate Driver'],
         "IPM":['SiC 功率模块','SiC IPM SiC']
     },
     "product": {
