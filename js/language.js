@@ -73,7 +73,7 @@ var adwordsData = {
     //首页行业应用图片说明文字
     "app_1" : ['新能源汽车','New Energy Automobile'],
     "app_2" : ['分布式能源','Distributed Energy'],
-    "app_3" : ['轨道交通','Rail'],
+    "app_3" : ['轨道交通','Rail Transport'],
     "app_4" : ['智能电网','Smart Power Grids'],
     "app_5" : ['充电桩','Charging Pile'],
     "app_6" : ['数据中心','Data Center'],
