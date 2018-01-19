@@ -27,7 +27,8 @@ var navData = {
         "values":['使命，愿景和价值观','Mission, Vision, Values'],
         "org":['组织架构','Organization Chart'],
         "events":['公司进程','Events'],
-        "news":['行业信息','More news']
+        "news":['行业信息','More news'],
+        "links":['行业专业网站','Useful Web Links']
     },
     "technology": {
         "WBG":['SiC 宽禁带半导体','SiC WBG Semiconductor'],
