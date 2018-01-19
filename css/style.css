@@ -144,8 +144,7 @@ a:hover {
 }
 
 .hero-brand {
-  width: 10em;
-  margin-bottom: 2em;
+  width: 90%;
   display: inline-block;
 }
 
@@ -169,7 +168,7 @@ a:hover {
 }
 
 #header .logo {
-  margin: 14px 25px 0 0;
+  padding: 15px;
 }
 
 #header .logo h1 {
@@ -190,8 +189,10 @@ a:hover {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 2em;
 }
+
+
 
 @media (max-width: 768px) {
   #header {
