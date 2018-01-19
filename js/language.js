@@ -238,8 +238,8 @@ var more = ['了解更多','Learn More'];
 //首页联系我们
 var campnyInfo = {
     "add": ['上海市浦东新区南汇新城镇海洋一路333号8号楼3楼','Building 8-3F, No. 333, Ocean No. 1 Road, Nanhui New City Town, Pudong New District, Shanghai 201306, P.R.China'],
-    "tel": '+86 021-2093 6199',
-    "email": 'inventchip@inventchip.com.cn'
+    "tel": '+86 021-6087 0171',
+    "email": 'jun.cao@inventchip.com.cn'
 };
 
 /* ==================================================
