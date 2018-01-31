@@ -58,18 +58,14 @@ var adwordsData = {
     'application, and marketing. Founded on Jul 17, 2017 in the dynamic new city, Lingang, Shanghai.'],
 
     "ad_PT": ['瞻芯电子致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
-    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
-    'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
-    'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
-    'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
-    'Menandritemporibus an duo.'],
+    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Develop high performance low cost SiC power ' +
+    'semiconductor and module products; to enable minimization, higher efficiency, and lighter weight of power converter' +
+    ' and inverter system with our turn-key semiconductor solutions.'],
 
     "ad_App": ['瞻芯电子致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品致力于开发以新型功率器件为核心的高性价比功率集成电路和应用模块产品，' +
-    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Voluptua scripserit ' +
-    'per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, ' +
-    'sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. ' +
-    'Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. ' +
-    'Menandritemporibus an duo.'],
+    '为电源和电驱动系统的小型化、高效化和轻量化提供完整的半导体解决方案。', 'Develop high performance low cost SiC power ' +
+    'semiconductor and module products; to enable minimization, higher efficiency, and lighter weight of power converter' +
+    ' and inverter system with our turn-key semiconductor solutions.'],
 
     //首页行业应用图片说明文字
     "app_1" : ['新能源汽车','New Energy Automobile'],
