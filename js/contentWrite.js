@@ -94,14 +94,14 @@ function contentWrite() {
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
 
-    //行业信息
-    $.each(newsData,function (item) {
-        var parentId = '#' + item;
-        $.each(newsData[item],function (i) {
-            var parograph = '.' + i;
-            $(parentId).find(parograph).html(newsData[item][i][lang_flag]);
-        });
-    });
+    // //行业信息
+    // $.each(newsData,function (item) {
+    //     var parentId = '#' + item;
+    //     $.each(newsData[item],function (i) {
+    //         var parograph = '.' + i;
+    //         $(parentId).find(parograph).html(newsData[item][i][lang_flag]);
+    //     });
+    // });
 
 
 
