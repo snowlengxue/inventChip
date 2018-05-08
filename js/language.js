@@ -128,22 +128,17 @@ var adwordsData = {
 var jobsData = {
     "job1" : {
         //招聘职位名称
-        "jobN" :['版图设计工程师','Layout design engineer'],
+        "jobN" :['功率器件测试助理','Power Device Test Assistant'],
         //招聘信息职位描述
-        "jobD-p1" : ['负责高性能集成电路版图设计；','Physical design and layout of high performance power integrated circuits.'],
-        "jobD-p2" : ['顶层版图布局规划以及芯片面积优化；','Top level layout floorplanning and die size optimization.'],
-        "jobD-p3" : ['高效电路模块版图设计以及面积优化；','Cosft effective implementing of IC circuit blocks.'],
-        "jobD-p4" : ['负责集成电路版图验证，确保DRC/LVS通过；','Physical layout verification including DRC/LVS,etc.'],
-        "jobD-p5" : ['在设计和流片过程中，与IC设计工程师，工艺工程师以及工厂密切配合','Interfacting with circuit designers, process engineers and maks designers during product development.'],
-        "jobD-p6" : ['整理总结项目及产品开发各个阶段的文档资料；',''],
+        "jobD-p1" : ['1.功率器件晶圆级的静态、动态、可靠性测试表征；',''],
+        "jobD-p2" : ['2.功率器件封装级的静态、动态、可靠性测试表征；',''],
+        "jobD-p3" : ['3.整理项目及产品开发期间的文档资料；',''],
+        "jobD-p4" : ['4.协助管理测试实验室；',''],
         //招聘信息职位要求
-        "jobR-p1" : ['态度严谨，上进心强；','Bachelor degree or above in EE，Microelectronics or related fields'],
-        "jobR-p2" : ['电子、微电子或相关专业本科以上学历','Minimum 5 years of working experience of analog IC layout is preferred'],
-        "jobR-p3" : ['5年及以上集成电路版图设计工作经验 ','Familiar with details of IC layout'],
-        "jobR-p4" : ['熟悉集成电路工艺，半导体器件的版图要求；','Familiar with Cadence design environment'],
-        "jobR-p5" : ['熟练使用主流EDA软件工具（Cadence），Linux操作熟练，有Skill脚本编程能力更佳','Good communication skills and cooperative spirits'],
-        "jobR-p6" : ['具备良好的英文沟通能力和团队合作精神','IC layout experience in power IC area is preferred.'],
-        "jobR-p7" : ['有电源IC相关的版图设计经验','']
+        "jobR-p1" : ['1.研究生学历优先；',''],
+        "jobR-p2" : ['2.动手能力强，善于解决问题；',''],
+        "jobR-p3" : ['3.微电子、半导体物理、光电子、或其它电子类、材料学类相关专业；',''],
+        "jobR-p4" : ['4.有物理类实验室项目经历、电子器件测试、电子仪器设备操作经历者优先。','']
     },
     "job2" : {
         //招聘职位名称
@@ -235,7 +230,7 @@ var more = ['了解更多','Learn More'];
 //首页联系我们
 var campnyInfo = {
     "add": ['上海市浦东新区南汇新城镇海洋一路333号8号楼3楼','Building 8-3F, No. 333, Ocean No. 1 Road, Nanhui New City Town, Pudong New District, Shanghai 201306, P.R.China'],
-    "tel": '+86 021-6087 0171',
+    "tel": '+86 021-6087 0173',
     "email": 'jun.cao@inventchip.com.cn'
 };
 
