@@ -290,6 +290,17 @@ a.panel-heading {
     cursor: pointer;
 }
 
+.pagination .current {
+    background-color: #004e92;
+    color: #fff;
+}
+
+.pagination .prev,
+.pagination .next {
+    background-color: transparent;
+    color: #004e92;
+}
+
 /* ==================================================
   application 页面
   ================================================== */
