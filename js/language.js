@@ -340,8 +340,14 @@ var newsData = {
         "13" : "http://powerpulse.net/new-ferrite-for-high-frequency-gan-and-sic-power-converters",
         "14" : "http://powerpulse.net/?post_type=post&p=149358&source=ppd",
         "15" : "http://powerpulse.net/twinning-promises-to-vastly-reduce-wafering-costs-for-sic-based-devices",
-        "16" : "http://powerpulse.net/mersen-to-acquire-49-of-sic-start-up-caly-technologies"
-
+        "16" : "http://powerpulse.net/mersen-to-acquire-49-of-sic-start-up-caly-technologies",
+        "17" : "http://powerpulse.net/sic-enables-98-5-efficient-6-6-kw-totem-pole-pfc-reference-design/",
+        "18" : "http://powerpulse.net/finsix-announces-strategic-partnership-with-toyota-industries/",
+        "19" : "http://powerpulse.net/ii-vi-incorporated-opens-new-epi-wafer-facility/",
+        "20" : "https://finance.yahoo.com/news/axcelis-announces-multiple-orders-purion-120000944.html",
+        "21" : "http://powerpulse.net/mosfet-based-600w-mini-ipm-motor-drivers-deliver-higher-efficiency/",
+        "22" : "http://powerpulse.net/silicon-breakthrough-could-make-key-microwave-technology-cheaper-and-better/",
+        "23" : "http://powerpulse.net/sic-mosfets-enable-240a-pulses-at-60hz-repetition/"
   },
     "aCap" : {
         "0" : "Littlefuse 1200V SiC Schottky Diodes Rated for 8A, 15A and 20A",
@@ -360,7 +366,13 @@ var newsData = {
         "13" : "New Ferrite for High-Frequency GaN and SiC Power Converters TDK – Feb 23, 2018<",
         "14" : "Infineon and Cree agree on Long-Term SiC Wafer Supply – Feb 27,2018",
         "15" : "“Twinning” Promises to Vastly Reduce Wafering Costs for SiC-Based Devices Siltectra – Feb 27, 2018",
-        "16" : "Mersen to Acquire 49% of SiC Start-up CALY Technologies – Apr 20, 2018"
-
+        "16" : "Mersen to Acquire 49% of SiC Start-up CALY Technologies – Apr 20, 2018",
+        "17" : "SiC Enables 98.5% Efficient 6.6-kW Totem-Pole PFC Reference Design – Apr 23, 2018",
+        "18" : "FINsix Announces Strategic Partnership with Toyota Industries – May 10, 2018",
+        "19" : "II-VI Incorporated Opens New Epi Wafer Facility – May 16, 2018",
+        "20" : "Axcelis Announces Multiple Orders For 'Purion M' Implanter From Leading Power Device Manufacturers – May 22, 2018",
+        "21" : "MOSFET-based 600W Mini IPM Motor Drivers Deliver Higher Efficiency – May 24, 2018",
+        "22" : "Silicon Breakthrough Could Make Key Microwave Technology Cheaper and Better – May 25, 2018",
+        "23" : "SiC MOSFETs enable 240A Pulses at 60Hz Repetition: X-ray free-electron laser  – Jun 27, 2018"
     }
 };

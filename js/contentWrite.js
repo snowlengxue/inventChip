@@ -103,9 +103,7 @@ function contentWrite() {
         var aLink = newsData["href"][i];
         var aCap = newsData["aCap"][i];
         var html = h4Html1 + aLink + h4Html2 + aCap + h4Html3;
-        $('#hiddenresult').append(html);
-        // var hiddenresult = $('#hiddenresult');
-        // console.log("#hiddenresult:" + hiddenresult[0].innerHTML);
+        $('#hiddenresult').prepend(html);
     };
 
     //首页联系我们
