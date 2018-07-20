@@ -94,18 +94,19 @@ function contentWrite() {
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
 
-    // //行业信息
-    // $.each(newsData,function (item) {
-    //     var parentId = '#' + item;
-    //     $.each(newsData[item],function (i) {
-    //         var parograph = '.' + i;
-    //         $(parentId).find(parograph).html(newsData[item][i][lang_flag]);
-    //     });
-    // });
-
-
-
-
+    //行业信息
+    var newsKeys = Object.keys(newsData.href);
+    var h4Html1 = '<h4 class="panel panel-heading show"><a class="color-black" href="';
+    var h4Html2 = '" target="_blank">';
+    var h4Html3 = '</a></h4>';
+    for (var i = 0; i < newsKeys.length; i++) {
+        var aLink = newsData["href"][i];
+        var aCap = newsData["aCap"][i];
+        var html = h4Html1 + aLink + h4Html2 + aCap + h4Html3;
+        $('#hiddenresult').append(html);
+        // var hiddenresult = $('#hiddenresult');
+        // console.log("#hiddenresult:" + hiddenresult[0].innerHTML);
+    };
 
     //首页联系我们
     $('#add').html(campnyInfo.add[lang_flag]);

@@ -276,6 +276,20 @@ body {
 a.panel-heading {
     color: #000 !important;
 }
+
+.pagination a,
+.pagination span {
+    margin: 0.25em;
+    padding: 0.5em;
+    border: 1px solid #004e92;
+    color: #004e92;
+}
+
+.pagination a:hover,
+.pagination span:hover {
+    cursor: pointer;
+}
+
 /* ==================================================
   application 页面
   ================================================== */

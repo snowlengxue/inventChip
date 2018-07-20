@@ -355,26 +355,20 @@
 
                     <!--行业信息-->
                     <div class="tab-pane fade panel-group" id="news">
-                        <!--例子：-->
-                        <!--<h4 class="panel panel-heading"><a class="color-black" href="" target="_blank"></a></h4>-->
-                        <!--/例子：-->
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/mersen-to-acquire-49-of-sic-start-up-caly-technologies" target="_blank">Mersen to Acquire 49% of SiC Start-up CALY Technologies – Apr 20, 2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/twinning-promises-to-vastly-reduce-wafering-costs-for-sic-based-devices" target="_blank">“Twinning” Promises to Vastly Reduce Wafering Costs for SiC-Based Devices Siltectra – Feb 27, 2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/?post_type=post&p=149358&source=ppd" target="_blank">Infineon and Cree agree on Long-Term SiC Wafer Supply – Feb 27,2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/new-ferrite-for-high-frequency-gan-and-sic-power-converters" target="_blank">New Ferrite for High-Frequency GaN and SiC Power Converters TDK – Feb 23, 2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/1200v-sic-schottkys-designed-to-endure-high-pollution-environments" target="_blank">1200V SiC Schottkys Designed to Endure High-Pollution Environments from Cree - Feb 22, 2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/6-5kv-full-sic-power-module-claims-worlds-highest-power-density" target="_blank">6.5kV Full-SiC Power Module Claims World’s Highest Power Density – Feb 01 of 2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/1200v-gan-based-power-modules-from-visic-and-tsmc" target="_blank">1200V GaN-based Power Modules from VisIC and TSMC – Feb 07 of 2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/gan-enables-compact-1kw-isolated-bidirectional-dc-dcs" target="_blank">GaN Enables Compact 1kW Isolated Bidirectional DC-DCs - Jan 24 of 2018</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.semiconductor-today.com/news_items/2018/jan/sdk_230118.shtml" target="_blank">SDK to expand high-grade SiC epi capacity further to 7000 wafers per month by September</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.semiconductor-today.com/news_items/2018/jan/disco_090118.shtml" target="_blank">Disco develops DAL7440 KABRA laser saw for 8-inch SiC wafers</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://articles.sae.org/13244/" target="_blank">Efficient power electronics for hybrids and EVs</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="https://compoundsemiconductor.net/article/102921/IDT_Introduces_SiC_Humidity_Sensors%7BfeatureExtra%7D" target="_blank">IDT Introduces SiC Humidity Sensors</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/full-sic-power-modules-for-formula-e-racing-team-venturi/" target="_blank">Full SiC Power Modules for Formula E Racing Team Venturi</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/full-bridge-sip-includes-mosfets-gate-drivers-and-protection/" target="_blank">Full-Bridge SiP Includes MOSFETs, Gate Drivers, and Protection</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/littelfuse-completes-acquisition-of-ixys/" target="_blank">Littelfuse Completes Acquisition of IXYS</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/gan-enables-1600w-titanium-power-supply-for-gamers/" target="_blank">GaN Enables 1600W Titanium Power Supply for Gamers</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net/1200v-sic-schottky-diodes-rated-for-8a-15a-and-20a/" target="_blank">Littlefuse 1200V SiC Schottky Diodes Rated for 8A, 15A and 20A</a></h4>
+                        <div id="Searchresult">分页初始化完成后这里的内容会被替换。</div>
+                        <div id="Pagination" class="pagination"></div>
+                        <div id="hiddenresult" style="display: none;"></div>
+                        <div style="display: none;">
+                            <h3>每页参数配置表单</h3>
+                            <form name="paginationoptions">
+                                <p><label for="items_per_page">每页显示的列表数：</label><input type="text" value="15" name="items_per_page" id="items_per_page" class="numeric" /></p>
+                                <p><label for="num_display_entries">分页链接显示数：</label><input type="text" value="10" name="num_display_entries" id="num_display_entries" class="numeric" /></p>
+                                <p><label for="num">起始与结束点的数目：</label><input type="text" value="2" name="num_edge_entries" id="num_edge_entries" class="numeric" /></p>
+                                <p><label for="prev_text">“上一页”标签：</label><input type="text" value="Prev" name="prev_text" id="prev_text" /></p>
+                                <p><label for="next_text">“下一页”标签：</label><input type="text" value="Next" name="next_text" id="next_text" /></p>
+                                <input type="button" id="setoptions" value="设置选项" />
+                            </form>
+                        </div>
                     </div>
 
                     <!--行业专业网站-->
@@ -477,5 +471,55 @@
 <script src="../js/contentWrite.js"></script>
 <script src="../js/timeline-content.js"></script>
 <script src="../js/inventchip.js"></script>
+<!--分页插件-->
+<script type="text/javascript" src="../lib/pagination/jquery.pagination.js"></script>
+<script type="text/javascript">
+    $(function(){
+        //总数目
+        var length = ("#hiddenresult.show").length;
+        //从表单获取分页元素参数
+        var optInit = getOptionsFromForm();
+        $("#Pagination").pagination(length, optInit);
+
+        // 按钮事件
+        $("#setoptions").click(function(){
+            var opt = getOptionsFromForm();
+            // 重新创建分页参数
+            $("#Pagination").pagination(length, opt);
+        });
+        //-----------------------------------
+        function getOptionsFromForm(){
+            var opt = {callback: pageselectCallback};
+            // 从文本域中收集参数 - 这些空间名与参数名相对应
+            $("input:text").each(function(){
+                opt[this.name] = this.className.match(/numeric/) ? parseInt(this.value) : this.value;
+            });
+            //避免demo重引入HTML
+            var htmlspecialchars ={ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;"}
+            $.each(htmlspecialchars, function(k,v){
+                opt.prev_text = opt.prev_text.replace(k,v);
+                opt.next_text = opt.next_text.replace(k,v);
+            })
+            return opt;
+        }
+        //-------------------------------
+        function pageselectCallback(page_index, jq){
+            // 从表单获取每页的显示的列表项数目
+            var items_per_page = $("#items_per_page").val();
+            var max_elem = Math.min((page_index+1) * items_per_page, length);
+
+            $("#Searchresult").html("");
+            // 获取加载元素
+            for(var i=page_index*items_per_page;i<max_elem;i++){
+                $("#Searchresult").append($("#hiddenresult .show:eq("+i+")").clone());
+            }
+            //阻止单击事件
+            return false;
+        }
+    });
+</script>
+<!--/分页插件-->
+
+
 </body>
 </html>

@@ -319,3 +319,48 @@ var timelineData = {
     // 例子： "timeline-content-left-en" : ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Lorem ipsum dolor sit amet, consectetur adipiscing elit.']
     "timeline-content-left-en" : ['Inventchip Technology Co., Ltd. officially settled Lingang Science and Technology City, on January 12, 2018. Under the jurisdiction of Lingang Kechuang Park: Ocean One Road 333, Building 8, 3rd Floor. The 1,000 square meters of property will take the heavy responsibility of company\'s power Device and integrated circuit product development.']
 };
+
+// 行业信息
+
+var newsData = {
+    "href" : {
+        "0" : "http://powerpulse.net/1200v-sic-schottky-diodes-rated-for-8a-15a-and-20a/",
+        "1" : "http://powerpulse.net/gan-enables-1600w-titanium-power-supply-for-gamers/",
+        "2" : "http://powerpulse.net/littelfuse-completes-acquisition-of-ixys/",
+        "3" : "http://powerpulse.net/full-bridge-sip-includes-mosfets-gate-drivers-and-protection/",
+        "4" : "http://powerpulse.net/full-sic-power-modules-for-formula-e-racing-team-venturi/",
+        "5" : "https://compoundsemiconductor.net/article/102921/IDT_Introduces_SiC_Humidity_Sensors%7BfeatureExtra%7D",
+        "6" : "http://articles.sae.org/13244/",
+        "7" : "http://www.semiconductor-today.com/news_items/2018/jan/disco_090118.shtml",
+        "8" : "http://www.semiconductor-today.com/news_items/2018/jan/sdk_230118.shtml",
+        "9" : "http://powerpulse.net/gan-enables-compact-1kw-isolated-bidirectional-dc-dcs",
+        "10" : "http://powerpulse.net/1200v-gan-based-power-modules-from-visic-and-tsmc",
+        "11" : "http://powerpulse.net/6-5kv-full-sic-power-module-claims-worlds-highest-power-density",
+        "12" : "http://powerpulse.net/1200v-sic-schottkys-designed-to-endure-high-pollution-environments",
+        "13" : "http://powerpulse.net/new-ferrite-for-high-frequency-gan-and-sic-power-converters",
+        "14" : "http://powerpulse.net/?post_type=post&p=149358&source=ppd",
+        "15" : "http://powerpulse.net/twinning-promises-to-vastly-reduce-wafering-costs-for-sic-based-devices",
+        "16" : "http://powerpulse.net/mersen-to-acquire-49-of-sic-start-up-caly-technologies"
+
+  },
+    "aCap" : {
+        "0" : "Littlefuse 1200V SiC Schottky Diodes Rated for 8A, 15A and 20A",
+        "1" : "GaN Enables 1600W Titanium Power Supply for Gamers",
+        "2" : "Littelfuse Completes Acquisition of IXYS",
+        "3" : "Full-Bridge SiP Includes MOSFETs, Gate Drivers, and Protection",
+        "4" : "Full SiC Power Modules for Formula E Racing Team Venturi",
+        "5" : "IDT Introduces SiC Humidity Sensors",
+        "6" : "Efficient power electronics for hybrids and EVs",
+        "7" : "Disco develops DAL7440 KABRA laser saw for 8-inch SiC wafers",
+        "8" : "SDK to expand high-grade SiC epi capacity further to 7000 wafers per month by September",
+        "9" : "GaN Enables Compact 1kW Isolated Bidirectional DC-DCs - Jan 24 of 2018",
+        "10" : "1200V GaN-based Power Modules from VisIC and TSMC – Feb 07 of 2018",
+        "11" : "6.5kV Full-SiC Power Module Claims World’s Highest Power Density – Feb 01 of 2018",
+        "12" : "1200V SiC Schottkys Designed to Endure High-Pollution Environments from Cree - Feb 22, 2018",
+        "13" : "New Ferrite for High-Frequency GaN and SiC Power Converters TDK – Feb 23, 2018<",
+        "14" : "Infineon and Cree agree on Long-Term SiC Wafer Supply – Feb 27,2018",
+        "15" : "“Twinning” Promises to Vastly Reduce Wafering Costs for SiC-Based Devices Siltectra – Feb 27, 2018",
+        "16" : "Mersen to Acquire 49% of SiC Start-up CALY Technologies – Apr 20, 2018"
+
+    }
+};
