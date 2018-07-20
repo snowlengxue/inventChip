@@ -94,7 +94,9 @@ function contentWrite() {
     $('.jobAdd').html(campnyInfo.add[lang_flag]);
     $('.more').html(more[lang_flag]);
 
-    //行业信息
+    /* ==================================================
+        行业信息
+    ================================================== */
     var newsKeys = Object.keys(newsData.href);
     var h4Html1 = '<h4 class="panel panel-heading show"><a class="color-black" href="';
     var h4Html2 = '" target="_blank">';
