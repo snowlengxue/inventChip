@@ -413,7 +413,8 @@ var newsData = {
         "20" : "https://finance.yahoo.com/news/axcelis-announces-multiple-orders-purion-120000944.html",
         "21" : "http://powerpulse.net/mosfet-based-600w-mini-ipm-motor-drivers-deliver-higher-efficiency/",
         "22" : "http://powerpulse.net/silicon-breakthrough-could-make-key-microwave-technology-cheaper-and-better/",
-        "23" : "http://powerpulse.net/sic-mosfets-enable-240a-pulses-at-60hz-repetition/"
+        "23" : "http://powerpulse.net/sic-mosfets-enable-240a-pulses-at-60hz-repetition/",
+        "24" : "tesla model.html"
   },
     "aCap" : {
         "0" : "Littlefuse 1200V SiC Schottky Diodes Rated for 8A, 15A and 20A",
@@ -439,6 +440,7 @@ var newsData = {
         "20" : "Axcelis Announces Multiple Orders For 'Purion M' Implanter From Leading Power Device Manufacturers – May 22, 2018",
         "21" : "MOSFET-based 600W Mini IPM Motor Drivers Deliver Higher Efficiency – May 24, 2018",
         "22" : "Silicon Breakthrough Could Make Key Microwave Technology Cheaper and Better – May 25, 2018",
-        "23" : "SiC MOSFETs enable 240A Pulses at 60Hz Repetition: X-ray free-electron laser  – Jun 27, 2018"
+        "23" : "SiC MOSFETs enable 240A Pulses at 60Hz Repetition: X-ray free-electron laser  – Jun 27, 2018",
+        "24" : "Tesla Model 3 Disassembly - Sep 06, 2018"
     }
 };
