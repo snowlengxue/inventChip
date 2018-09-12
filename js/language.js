@@ -32,8 +32,6 @@ var navData = {
     },
     "technology": {
         "SiC_tech" : ['SiC 技术','SiC Technology'],
-        // "news":['行业信息','More news'],
-        // "links":['行业专业网站','Useful Web Links'],
         "documentation":['技术文档','Documentation'],
         "WBG":['SiC 宽禁带半导体','SiC WBG Semiconductor'],
         "power":['SiC 功率器件','SiC Power Device'],
@@ -446,5 +444,17 @@ var newsData = {
         "22" : "Silicon Breakthrough Could Make Key Microwave Technology Cheaper and Better – May 25, 2018",
         "23" : "SiC MOSFETs enable 240A Pulses at 60Hz Repetition: X-ray free-electron laser  – Jun 27, 2018",
         "24" : "Tesla Model 3 Disassembly - Sep 06, 2018"
+    }
+};
+
+
+// 技术文档
+
+var documentationData = {
+    "href" : {
+        0 : "tesla model.html"
+    },
+    "aCap" : {
+        0 : "Tesla Model 3 Disassembly - Sep 06, 2018"
     }
 };

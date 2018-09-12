@@ -105,8 +105,14 @@ function contentWrite() {
         var aLink = newsData["href"][i];
         var aCap = newsData["aCap"][i];
         var html = h4Html1 + aLink + h4Html2 + aCap + h4Html3;
-        $('#hiddenresult').prepend(html);
+        $('.hiddenresult').prepend(html);
     };
+
+    /* ==================================================
+      技术文档
+  ================================================== */
+
+
 
     //首页联系我们
     $('#add').html(campnyInfo.add[lang_flag]);
