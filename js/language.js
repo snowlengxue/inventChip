@@ -31,6 +31,10 @@ var navData = {
         "links":['行业专业网站','Useful Web Links']
     },
     "technology": {
+        "SiC_tech" : ['SiC 技术','SiC Technology'],
+        // "news":['行业信息','More news'],
+        // "links":['行业专业网站','Useful Web Links'],
+        "documentation":['技术文档','Documentation'],
         "WBG":['SiC 宽禁带半导体','SiC WBG Semiconductor'],
         "power":['SiC 功率器件','SiC Power Device'],
         "gate":['SiC MOSFET栅极驱动电路','SiC MOSFET Gate Driver'],
