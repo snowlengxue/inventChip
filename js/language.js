@@ -111,7 +111,7 @@ var adwordsData = {
     "power-p2" : ['',''],
 
     //technology 页面 栅极驱动电路
-    "gatedriver-p1": ['智能驱动电路高度集成了各功能模块，具有过压、过流、过温保护及软关断等特性优势。对比早期用分立器件搭配碳化硅MOSFET的应用方案，能够整体提高应用方案的可靠性，并大幅降低开关损耗。',''],
+    "gatedriver-p1": ['智能驱动电路高度集成了各功能模块，具有过压、过流、过温保护及软关断等特性优势。对比早期用分立器件搭配碳化硅MOSFET的应用方案，能够整体提高应用方案的可靠性，并大幅降低开关损耗。','The intelligent drive circuit is highly integrated with various functional modules, featuring overvoltage, overcurrent, overtemperature protection and soft shutdown. Compared with the early application of discrete devices with silicon carbide MOSFETs, the overall reliability of the application can be improved and the switching loss can be greatly reduced.'],
 
     // product页面-1200v
     "1200v-ca1" : ['1200v-IVCT-module1','1200v-IVCT-module1'],

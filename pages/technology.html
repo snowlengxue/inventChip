@@ -130,10 +130,11 @@
             </div>
             <!--一级标签内容-->
             <div class="tab-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <!--SiC技术-->
                 <div role="tabpanel" class="tab-pane active" id="SiC_tech">
-                    <!--二级标签-->
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <!--二级标签-->
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-bottom-2em">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation" class="active"><a class="WBG" href="#WBG" aria-controls="WBG" role="tab" data-toggle="tab"></a></li>
                                 <li role="presentation"><a class="power" href="#power" aria-controls="power" role="tab" data-toggle="tab"></a></li>
@@ -143,59 +144,72 @@
                         </div>
                         <!--二级标签内容-->
                         <div class="tab-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div role="tabpanel" class="tab-pane active" id="WBG">
-                                <div class="margin-bottom-2em">
-                                    <p class="WBG-P1 margin-bottom-2em"></p>
-                                    <img src="../img/technology/SICGAN.jpg" class="img-responsive text-center" style="margin: auto;">
-                                </div>
+                            <!--宽禁带半导体-->
+                            <div role="tabpanel" class="tab-pane active margin-bottom-2em" id="WBG">
+                                <p class="WBG-P1 margin-bottom-2em"></p>
+                                <img src="../img/technology/SICGAN.jpg" class="img-responsive text-center" style="margin: auto;">
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="power">
-                                <div class="margin-bottom-2em">
-                                    <p class="power-p1"></p>
-                                    <p class="power-p2 margin-bottom-2em"></p>
-                                    <div class="row">
-                                        <div class="col-lg-8 col-lg-offset-2">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <img src="../img/technology/mosfet2.jpg" alt="" class="img-responsive">
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <img src="../img/technology/mosfet3.jpg" alt="" class="img-responsive">
-                                            </div>
-                                        </div>
+                            <!--功率器件-->
+                            <div role="tabpanel" class="tab-pane margin-bottom-2em" id="power">
+                                <p class="power-p1"></p>
+                                <p class="power-p2 margin-bottom-2em"></p>
+                                <div class="row">
+                                    <div class="col-lg-8 col-lg-offset-2">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="../img/technology/mosfet2.jpg" alt="" class="img-responsive"></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="../img/technology/mosfet3.jpg" alt="" class="img-responsive"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="gate">
-                                <div class="margin-bottom-2em">
-                                    <div class="row">
-                                        <p class="gatedriver-p1"></p>
-                                        <div class="col-md-4 col-md-offset-4">
-                                            <img src="../img/technology/gatedriber.jpg" alt="" class="img-responsive">
-                                        </div>
-                                    </div>
+                            <!--栅级驱动电路-->
+                            <div role="tabpanel" class="tab-pane margin-bottom-2em" id="gate">
+                                <div class="row">
+                                    <p class="gatedriver-p1"></p>
+                                    <div class="col-md-4 col-md-offset-4"><img src="../img/technology/gatedriber.jpg" alt="" class="img-responsive"></div>
                                 </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="IPM">
+                            <!--功率模块-->
+                            <div role="tabpanel" class="tab-pane margin-bottom-2em" id="IPM">
                                 <div class="row">
                                     <div class="col-lg-offset-2 col-lg-8">
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <img src="../img/technology/mokuai11.jpg" alt="" class="img-responsive">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <img src="../img/technology/mokuai22.jpg" alt="" class="img-responsive">
-                                        </div>
-                                        <!--<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">-->
-                                        <!--<img src="../img/technology/ipm3.jpg" alt="" class="img-responsive">-->
-                                        <!--</div>-->
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="../img/technology/mokuai11.jpg" alt="" class="img-responsive"></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="../img/technology/mokuai22.jpg" alt="" class="img-responsive"></div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div role="tabpanel" class="tab-pane" id="news">news</div>
-                <div role="tabpanel" class="tab-pane" id="links">links</div>
+                <!--行业信息-->
+                <div role="tabpanel" class="tab-pane fade panel-group" id="news">
+                    <div id="Searchresult">分页初始化完成后这里的内容会被替换。</div>
+                    <div id="Pagination" class="pagination"></div>
+                    <div id="hiddenresult" style="display: none;"></div>
+                    <div style="display: none;">
+                        <h3>每页参数配置表单</h3>
+                        <form name="paginationoptions">
+                            <p><label for="items_per_page">每页显示的列表数：</label><input type="text" value="15" name="items_per_page" id="items_per_page" class="numeric" /></p>
+                            <p><label for="num_display_entries">分页链接显示数：</label><input type="text" value="10" name="num_display_entries" id="num_display_entries" class="numeric" /></p>
+                            <p><label for="num">起始与结束点的数目：</label><input type="text" value="2" name="num_edge_entries" id="num_edge_entries" class="numeric" /></p>
+                            <p><label for="prev_text">“上一页”标签：</label><input type="text" value="Prev" name="prev_text" id="prev_text" /></p>
+                            <p><label for="next_text">“下一页”标签：</label><input type="text" value="Next" name="next_text" id="next_text" /></p>
+                            <input type="button" id="setoptions" value="设置选项" />
+                        </form>
+                    </div>
+                </div>
+                <!--行业专业网站-->
+                <div role="tabpanel" class="tab-pane fade panel-group" id="links">
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net" target="_blank">powerpulse.net</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="https://www.eetimes.com" target="_blank">www.eetimes.com</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://electroiq.com" target="_blank">electroiq.com</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="https://compoundsemiconductor.net/home" target="_blank">compoundsemiconductor.net</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://www.semiconductor-today.com/" target="_blank">www.semiconductor-today.com</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://www.disco.co.jp/cn_s/news/index.html" target="_blank">www.disco.co.jp</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://www.p-e-china.com/" target="_blank">电力电子网</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://www.dianyuan.com/" target="_blank">电源网</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://www.cwbpsi.com/" target="_blank">宽禁带半导体产业联盟</a></h4>
+                    <h4 class="panel panel-heading"><a class="color-black" href="http://www.casa-china.cn/" target="_blank">三代半</a></h4>
+                </div>
+                <!--技术文档-->
                 <div role="tabpanel" class="tab-pane" id="documentation">documentation</div>
             </div>
 
@@ -454,5 +468,57 @@
 <script src="../js/contentWrite.js"></script>
 <!--<script src="../js/timeline-content.js"></script>-->
 <script src="../js/inventchip.js"></script>
+<!--分页插件-->
+<script type="text/javascript" src="../lib/pagination/jquery.pagination.js"></script>
+<script type="text/javascript">
+    $(function(){
+        //总数目
+        var length = $(".show").length;
+        //从表单获取分页元素参数
+        var optInit = getOptionsFromForm();
+        $("#Pagination").pagination(length, optInit);
+
+        // 按钮事件
+        $("#setoptions").click(function(){
+            var opt = getOptionsFromForm();
+            // 重新创建分页参数
+            $("#Pagination").pagination(length, opt);
+        });
+        //-----------------------------------
+        function getOptionsFromForm(){
+            var opt = {callback: pageselectCallback};
+            // 从文本域中收集参数 - 这些空间名与参数名相对应
+            $("input:text").each(function(){
+                opt[this.name] = this.className.match(/numeric/) ? parseInt(this.value) : this.value;
+            });
+            //避免demo重引入HTML
+            var htmlspecialchars ={ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;"}
+            $.each(htmlspecialchars, function(k,v){
+                opt.prev_text = opt.prev_text.replace(k,v);
+                opt.next_text = opt.next_text.replace(k,v);
+            })
+            return opt;
+        }
+        //-------------------------------
+        function pageselectCallback(page_index, jq){
+            // 从表单获取每页的显示的列表项数目
+            var items_per_page = $("#items_per_page").val();
+            var max_elem = Math.min((page_index+1) * items_per_page, length);
+
+            $("#Searchresult").html("");
+            // 获取加载元素
+            for(var i=page_index*items_per_page;i<max_elem;i++){
+                $("#Searchresult").append($("#hiddenresult .show:eq("+i+")").clone());
+            }
+            //阻止单击事件
+            return false;
+        }
+    });
+</script>
+<!--/分页插件-->
+
+
+
+
 </body>
 </html>
