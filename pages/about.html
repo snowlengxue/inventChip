@@ -126,8 +126,6 @@
                     <li id="about_values"><a class="values" href="#values" data-toggle="tab"></a></li>
                     <li id="about_org"><a class="org" href="#org" data-toggle="tab"></a></li>
                     <li id="about_events"><a class="events" href="#events" data-toggle="tab"></a></li>
-                    <li id="about_news"><a class="news" href="#news" data-toggle="tab"></a></li>
-                    <li id="about_links"><a class="links" href="#links" data-toggle="tab"></a></li>
                 </ul>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
@@ -191,14 +189,6 @@
                             </a>
                         </div>
                     </div>
-                    <!--总经理致辞-->
-                    <!--<div class="tab-pane fade" id="speech">-->
-                        <!--<div class="margin-bottom-2em">-->
-                            <!--<p class="spe-p1"></p>-->
-                            <!--<p class="spe-p2"></p>-->
-                            <!--<p class="spe-p3"></p>-->
-                        <!--</div>-->
-                    <!--</div>-->
                     <!--使命愿景价值观-->
                     <div class="tab-pane fade" id="values">
                         <div class="margin-bottom-2em">
@@ -352,38 +342,6 @@
                         </div>
                         <!--/time line-->
                     </div>
-
-                    <!--行业信息-->
-                    <div class="tab-pane fade panel-group" id="news">
-                        <div id="Searchresult">分页初始化完成后这里的内容会被替换。</div>
-                        <div id="Pagination" class="pagination"></div>
-                        <div id="hiddenresult" style="display: none;"></div>
-                        <div style="display: none;">
-                            <h3>每页参数配置表单</h3>
-                            <form name="paginationoptions">
-                                <p><label for="items_per_page">每页显示的列表数：</label><input type="text" value="15" name="items_per_page" id="items_per_page" class="numeric" /></p>
-                                <p><label for="num_display_entries">分页链接显示数：</label><input type="text" value="10" name="num_display_entries" id="num_display_entries" class="numeric" /></p>
-                                <p><label for="num">起始与结束点的数目：</label><input type="text" value="2" name="num_edge_entries" id="num_edge_entries" class="numeric" /></p>
-                                <p><label for="prev_text">“上一页”标签：</label><input type="text" value="Prev" name="prev_text" id="prev_text" /></p>
-                                <p><label for="next_text">“下一页”标签：</label><input type="text" value="Next" name="next_text" id="next_text" /></p>
-                                <input type="button" id="setoptions" value="设置选项" />
-                            </form>
-                        </div>
-                    </div>
-
-                    <!--行业专业网站-->
-                    <div class="tab-pane fade panel-group" id="links">
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://powerpulse.net" target="_blank">powerpulse.net</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="https://www.eetimes.com" target="_blank">www.eetimes.com</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://electroiq.com" target="_blank">electroiq.com</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="https://compoundsemiconductor.net/home" target="_blank">compoundsemiconductor.net</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.semiconductor-today.com/" target="_blank">www.semiconductor-today.com</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.disco.co.jp/cn_s/news/index.html" target="_blank">www.disco.co.jp</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.p-e-china.com/" target="_blank">电力电子网</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.dianyuan.com/" target="_blank">电源网</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.cwbpsi.com/" target="_blank">宽禁带半导体产业联盟</a></h4>
-                        <h4 class="panel panel-heading"><a class="color-black" href="http://www.casa-china.cn/" target="_blank">三代半</a></h4>
-                    </div>
                 </div>
             </div>
         </div>
@@ -471,54 +429,7 @@
 <script src="../js/contentWrite.js"></script>
 <script src="../js/timeline-content.js"></script>
 <script src="../js/inventchip.js"></script>
-<!--分页插件-->
-<script type="text/javascript" src="../lib/pagination/jquery.pagination.js"></script>
-<script type="text/javascript">
-    $(function(){
-        //总数目
-        var length = $(".show").length;
-        //从表单获取分页元素参数
-        var optInit = getOptionsFromForm();
-        $("#Pagination").pagination(length, optInit);
 
-        // 按钮事件
-        $("#setoptions").click(function(){
-            var opt = getOptionsFromForm();
-            // 重新创建分页参数
-            $("#Pagination").pagination(length, opt);
-        });
-        //-----------------------------------
-        function getOptionsFromForm(){
-            var opt = {callback: pageselectCallback};
-            // 从文本域中收集参数 - 这些空间名与参数名相对应
-            $("input:text").each(function(){
-                opt[this.name] = this.className.match(/numeric/) ? parseInt(this.value) : this.value;
-            });
-            //避免demo重引入HTML
-            var htmlspecialchars ={ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;"}
-            $.each(htmlspecialchars, function(k,v){
-                opt.prev_text = opt.prev_text.replace(k,v);
-                opt.next_text = opt.next_text.replace(k,v);
-            })
-            return opt;
-        }
-        //-------------------------------
-        function pageselectCallback(page_index, jq){
-            // 从表单获取每页的显示的列表项数目
-            var items_per_page = $("#items_per_page").val();
-            var max_elem = Math.min((page_index+1) * items_per_page, length);
-
-            $("#Searchresult").html("");
-            // 获取加载元素
-            for(var i=page_index*items_per_page;i<max_elem;i++){
-                $("#Searchresult").append($("#hiddenresult .show:eq("+i+")").clone());
-            }
-            //阻止单击事件
-            return false;
-        }
-    });
-</script>
-<!--/分页插件-->
 
 
 </body>

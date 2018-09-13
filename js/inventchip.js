@@ -91,7 +91,9 @@ $(document).ready(function() {
         }, 1000, 'easeInOutExpo');
         return false;
     });
-
+    /* ==================================================
+   页面跳转
+================================================== */
     //获取参数 get parm
     var url = location.href;
     var tmp = url.split("?")[1];
@@ -106,9 +108,6 @@ $(document).ready(function() {
         case "profile":
             active('profile');
             break;
-        case "speech":
-            active('speech');
-            break;
         case "values":
             active('values');
             break;
@@ -118,10 +117,16 @@ $(document).ready(function() {
         case "events":
             active('events');
             break;
+        //technology 页面
         case "news":
             active('news');
             break;
-        //technology 页面
+        case "links":
+            active('links');
+            break;
+        case "documentation":
+            active('documentation');
+            break;
         case "WBG":
             active('WBG');
             break;
