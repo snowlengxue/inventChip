@@ -98,21 +98,29 @@ function contentWrite() {
         行业信息
     ================================================== */
     var newsKeys = Object.keys(newsData.href);
-    var h4Html1 = '<h4 class="panel panel-heading show"><a class="color-black" href="';
+    var h4Html1 = '<h4 class="panel panel-heading show keyi"><a class="color-black" href="';
     var h4Html2 = '" target="_blank">';
     var h4Html3 = '</a></h4>';
     for (var i = 0; i < newsKeys.length; i++) {
         var aLink = newsData["href"][i];
         var aCap = newsData["aCap"][i];
         var html = h4Html1 + aLink + h4Html2 + aCap + h4Html3;
-        $('.hiddenresult').prepend(html);
+        $('#hiddenresult1').prepend(html);
     };
 
     /* ==================================================
       技术文档
   ================================================== */
-
-
+    var docKeys = Object.keys(docData.href);
+    var doch4Html1 = '<h4 class="panel panel-heading show keyj"><a class="color-black" href="';
+    var doch4Html2 = '" target="_blank">';
+    var doch4Html3 = '</a></h4>';
+    for (var j = 0; j < docKeys.length; j++) {
+        var docaLink = docData["href"][j];
+        var docaCap = docData["aCap"][j];
+        var dochtml = doch4Html1 + docaLink + doch4Html2 + docaCap + doch4Html3;
+        $('#hiddenresult2').prepend(dochtml);
+    };
 
     //首页联系我们
     $('#add').html(campnyInfo.add[lang_flag]);

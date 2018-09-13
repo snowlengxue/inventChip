@@ -118,7 +118,6 @@
 <section class="content container-fluid">
     <div class="container">
         <div class="row">
-            <!--test-->
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                 <!-- 一级标签 -->
                 <ul class="nav nav-tabs nav-stacked" role="tablist">
@@ -181,18 +180,18 @@
                 </div>
                 <!--行业信息-->
                 <div role="tabpanel" class="tab-pane fade panel-group" id="news">
-                    <div class="Searchresult">分页初始化完成后这里的内容会被替换。</div>
-                    <div class="Paginationid pagination" class="pagination"></div>
-                    <div class="hiddenresult" style="display: none;"></div>
+                    <div id="Searchresult1">分页初始化完成后这里的内容会被替换。</div>
+                    <div id="Paginationid1" class="pagination"></div>
+                    <div id="hiddenresult1" style="display: none;"></div>
                     <div style="display: none;">
                         <h3>每页参数配置表单</h3>
                         <form name="paginationoptions">
-                            <p><label for="items_per_page">每页显示的列表数：</label><input type="text" value="15" name="items_per_page" id="items_per_page" class="numeric" /></p>
-                            <p><label for="num_display_entries">分页链接显示数：</label><input type="text" value="10" name="num_display_entries" id="num_display_entries" class="numeric" /></p>
+                            <p><label for="items_per_page1">每页显示的列表数：</label><input type="text" value="15" name="items_per_page" id="items_per_page1" class="numeric" /></p>
+                            <p><label for="num_display_entries1">分页链接显示数：</label><input type="text" value="10" name="num_display_entries" id="num_display_entries1" class="numeric" /></p>
                             <!--<p><label for="num">起始与结束点的数目：</label><input type="text" value="2" name="num_edge_entries" id="num_edge_entries" class="numeric" /></p>-->
-                            <p><label for="prev_text">“上一页”标签：</label><input type="text" value="Prev" name="prev_text" id="prev_text" /></p>
-                            <p><label for="next_text">“下一页”标签：</label><input type="text" value="Next" name="next_text" id="next_text" /></p>
-                            <!--<input type="button" id="setoptions" value="设置选项" />-->
+                            <p><label for="prev_text1">“上一页”标签：</label><input type="text" value="Prev" name="prev_text" id="prev_text1" /></p>
+                            <p><label for="next_text1">“下一页”标签：</label><input type="text" value="Next" name="next_text" id="next_text1" /></p>
+                            <input type="button" id="setoptions1" value="设置选项" />
                         </form>
                     </div>
                 </div>
@@ -211,198 +210,24 @@
                 </div>
                 <!--技术文档-->
                 <div role="tabpanel" class="tab-pane fade panel-group" id="documentation">
-                    <div class="Searchresult">分页初始化完成后这里的内容会被替换。</div>
-                    <div class="Paginationid pagination" class="pagination"></div>
-                    <div class="hiddenresult" style="display: none;"></div>
+                    <div id="Searchresult2">分页初始化完成后这里的内容会被替换。</div>
+                    <div id="Paginationid2" class="pagination"></div>
+                    <div id="hiddenresult2" style="display: none;"></div>
                     <div style="display: none;">
                         <h3>每页参数配置表单</h3>
                         <form name="paginationoptions">
-                            <p><label for="items_per_page">每页显示的列表数：</label><input type="text" value="15" name="items_per_page" id="items_per_page" class="numeric" /></p>
-                            <p><label for="num_display_entries">分页链接显示数：</label><input type="text" value="10" name="num_display_entries" id="num_display_entries" class="numeric" /></p>
+                            <p><label for="items_per_page2">每页显示的列表数：</label><input type="text" value="15" name="items_per_page" id="items_per_page2" class="numeric" /></p>
+                            <p><label for="num_display_entries2">分页链接显示数：</label><input type="text" value="10" name="num_display_entries" id="num_display_entries2" class="numeric" /></p>
                             <!--<p><label for="num">起始与结束点的数目：</label><input type="text" value="2" name="num_edge_entries" id="num_edge_entries" class="numeric" /></p>-->
-                            <p><label for="prev_text">“上一页”标签：</label><input type="text" value="Prev" name="prev_text" id="prev_text" /></p>
-                            <p><label for="next_text">“下一页”标签：</label><input type="text" value="Next" name="next_text" id="next_text" /></p>
-                            <!--<input type="button" id="setoptions" value="设置选项" />-->
+                            <p><label for="prev_text2">“上一页”标签：</label><input type="text" value="Prev" name="prev_text" id="prev_text2" /></p>
+                            <p><label for="next_text2">“下一页”标签：</label><input type="text" value="Next" name="next_text" id="next_text2" /></p>
+                            <input type="button" id="setoptions2" value="设置选项" />
                         </form>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!--/test-->
-
-
-
-
-
-
-
-
-
-
-            <!--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">-->
-                <!--<ul role="tablist" id="myTab" class="nav nav-tabs nav-stacked">-->
-                    <!--<li role="presentation" class="active"><a class="WBG" href="#1" data-toggle="tab"></a></li>-->
-                    <!--&lt;!&ndash;<li id="tech_power"><a class="power" href="#power" data-toggle="tab"></a></li>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<li id="tech_gate"><a class="gate" href="#gate" data-toggle="tab"></a></li>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<li id="tech_IPM"><a class="IPM" href="#IPM" data-toggle="tab"></a></li>&ndash;&gt;-->
-                <!--</ul>-->
-            <!--</div>-->
-            <!--<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">-->
-                <!--<div id="myTabContent" class="tab-content">-->
-
-                    <!--<div class="tab-pane fade" id="1">-->
-
-
-
-
-
-                        <!--<ul role="tablist" id="tab2" class="nav nav-tabs margin-bottom-2em">-->
-                            <!--<li role="presentation" id="tech_WBG" class="active"><a class="WBG" href="#technology" data-toggle="tab"></a></li>-->
-                            <!--<li role="presentation" id="tech_power"><a class="power" href="#power" data-toggle="tab"></a></li>-->
-                            <!--<li role="presentation" id="tech_gate"><a class="gate" href="#gate" data-toggle="tab"></a></li>-->
-                            <!--<li role="presentation" id="tech_IPM"><a class="IPM" href="#IPM" data-toggle="tab"></a></li>-->
-                        <!--</ul>-->
-                        <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">-->
-                            <!--<div id="tabContent2" class="tab-content">-->
-                                <!--&lt;!&ndash;宽禁带半导体&ndash;&gt;-->
-                                <!--<div class="tab-pane fade active in" id="technology">-->
-                                    <!--<div class="margin-bottom-2em">-->
-                                        <!--<p class="WBG-P1 margin-bottom-2em"></p>-->
-                                        <!--<img src="../img/technology/SICGAN.jpg" class="img-responsive text-center" style="margin: auto;">-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash;/宽禁带半导体&ndash;&gt;-->
-                                <!--&lt;!&ndash;功率器件&ndash;&gt;-->
-                                <!--<div class="tab-pane fade" id="power">-->
-                                    <!--<div class="margin-bottom-2em">-->
-                                        <!--<p class="power-p1"></p>-->
-                                        <!--<p class="power-p2 margin-bottom-2em"></p>-->
-                                        <!--<div class="row">-->
-                                            <!--<div class="col-lg-8 col-lg-offset-2">-->
-                                                <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                                    <!--<img src="../img/technology/mosfet2.jpg" alt="" class="img-responsive">-->
-                                                <!--</div>-->
-                                                <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                                    <!--<img src="../img/technology/mosfet3.jpg" alt="" class="img-responsive">-->
-                                                <!--</div>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash;/功率器件&ndash;&gt;-->
-                                <!--栅级驱动电路-->
-                                <!--<div class="tab-pane fade" id="gate">-->
-                                    <!--<div class="margin-bottom-2em">-->
-                                        <!--<div class="row">-->
-                                            <!--<p class="gatedriver-p1"></p>-->
-                                            <!--<div class="col-md-4 col-md-offset-4">-->
-                                                <!--<img src="../img/technology/gatedriber.jpg" alt="" class="img-responsive">-->
-                                            <!--</div>-->
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--/栅级驱动电路-->
-                                <!--功率模块-->
-                                <!--<div class="tab-pane fade" id="IPM">-->
-                                    <!--<div class="row">-->
-                                        <!--<div class="col-lg-offset-2 col-lg-8">-->
-                                            <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                                <!--<img src="../img/technology/mokuai11.jpg" alt="" class="img-responsive">-->
-                                            <!--</div>-->
-                                            <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                                <!--<img src="../img/technology/mokuai22.jpg" alt="" class="img-responsive">-->
-                                            <!--</div>-->
-                                            <!--&lt;!&ndash;<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">&ndash;&gt;-->
-                                            <!--&lt;!&ndash;<img src="../img/technology/ipm3.jpg" alt="" class="img-responsive">&ndash;&gt;-->
-                                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                                        <!--</div>-->
-
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash;/功率模块&ndash;&gt;-->
-                            <!--</div>-->
-                        <!--</div>-->
-
-
-
-
-
-
-
-                        <!--<div class="margin-bottom-2em">-->
-                            <!--<p class="WBG-P1 margin-bottom-2em"></p>-->
-                            <!--<img src="../img/technology/SICGAN.jpg" class="img-responsive text-center" style="margin: auto;">-->
-                        <!--</div>-->
-                    </div>
-                    <!--功率器件-->
-                    <!--<div class="tab-pane fade" id="power">-->
-                        <!--<div class="margin-bottom-2em">-->
-                            <!--<p class="power-p1"></p>-->
-                            <!--<p class="power-p2 margin-bottom-2em"></p>-->
-                            <!--<div class="row">-->
-                                <!--<div class="col-lg-8 col-lg-offset-2">-->
-                                    <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                        <!--<img src="../img/technology/mosfet2.jpg" alt="" class="img-responsive">-->
-                                    <!--</div>-->
-                                    <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                        <!--<img src="../img/technology/mosfet3.jpg" alt="" class="img-responsive">-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash;栅级驱动电路&ndash;&gt;-->
-                    <!--<div class="tab-pane fade" id="gate">-->
-                        <!--<div class="margin-bottom-2em">-->
-                            <!--<div class="row">-->
-                                <!--<p class="gatedriver-p1"></p>-->
-                                <!--<div class="col-md-4 col-md-offset-4">-->
-                                    <!--<img src="../img/technology/gatedriber.jpg" alt="" class="img-responsive">-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash;功率模块&ndash;&gt;-->
-                    <!--<div class="tab-pane fade" id="IPM">-->
-                        <!--<div class="row">-->
-                            <!--<div class="col-lg-offset-2 col-lg-8">-->
-                                <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                    <!--<img src="../img/technology/mokuai11.jpg" alt="" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
-                                    <!--<img src="../img/technology/mokuai22.jpg" alt="" class="img-responsive">-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash;<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<img src="../img/technology/ipm3.jpg" alt="" class="img-responsive">&ndash;&gt;-->
-                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                            <!--</div>-->
-
-                        <!--</div>-->
-                    <!--</div>-->
-                </div>
-            </div>
         </div>
-
     </div>
-
-
 </section>
 
 <!--  /page content  -->
@@ -464,76 +289,10 @@
 <!-- Required JavaScript Libraries -->
 <script src="../lib/jquery/jquery.min.js"></script>
 <script src="../lib/bootstrap/js/bootstrap-collapse.js"></script>
-<!--<script src="../lib/jquery/jquery-migrate.min.js"></script>-->
-<!--<script src="../lib/superfish/hoverIntent.js"></script>-->
-<!--<script src="../lib/superfish/superfish.min.js"></script>-->
-<!--<script src="../lib/tether/js/tether.min.js"></script>-->
-<!--<script src="../lib/stellar/stellar.min.js"></script>-->
-<!--<script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>-->
-<!--<script src="../lib/counterup/counterup.min.js"></script>-->
-<!--<script src="../lib/waypoints/waypoints.min.js"></script>-->
-<!--<script src="../lib/easing/easing.js"></script>-->
-<!--<script src="../lib/stickyjs/sticky.js"></script>-->
-<!--<script src="../lib/parallax/parallax.js"></script>-->
-<!--<script src="../lib/lockfixed/lockfixed.min.js"></script>-->
-
-
-<!--<script src="../contactform/contactform.js"></script>-->
 <script src="../js/language.js"></script>
 <script src="../js/contentWrite.js"></script>
-<!--<script src="../js/timeline-content.js"></script>-->
 <script src="../js/inventchip.js"></script>
 <!--分页插件-->
 <script type="text/javascript" src="../lib/pagination/jquery.pagination.js"></script>
-<script type="text/javascript">
-    $(function(){
-        //总数目
-        var length = $(".show").length;
-        //从表单获取分页元素参数
-        var optInit = getOptionsFromForm();
-        $(".Paginationid").pagination(length, optInit);
-
-        // 按钮事件
-        $(".setoptions").click(function(){
-            var opt = getOptionsFromForm();
-            // 重新创建分页参数
-            $(".Paginationid").pagination(length, opt);
-        });
-        //-----------------------------------
-        function getOptionsFromForm(){
-            var opt = {callback: pageselectCallback};
-            // 从文本域中收集参数 - 这些空间名与参数名相对应
-            $("input:text").each(function(){
-                opt[this.name] = this.className.match(/numeric/) ? parseInt(this.value) : this.value;
-            });
-            //避免demo重引入HTML
-            var htmlspecialchars ={ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;"}
-            $.each(htmlspecialchars, function(k,v){
-                opt.prev_text = opt.prev_text.replace(k,v);
-                opt.next_text = opt.next_text.replace(k,v);
-            })
-            return opt;
-        }
-        //-------------------------------
-        function pageselectCallback(page_index, jq){
-            // 从表单获取每页的显示的列表项数目
-            var items_per_page = $("#items_per_page").val();
-            var max_elem = Math.min((page_index+1) * items_per_page, length);
-
-            $(".Searchresult").html("");
-            // 获取加载元素
-            for(var i=page_index*items_per_page;i<max_elem;i++){
-                $(".Searchresult").append($(".hiddenresult .show:eq("+i+")").clone());
-            }
-            //阻止单击事件
-            return false;
-        }
-    });
-</script>
-<!--/分页插件-->
-
-
-
-
 </body>
 </html>

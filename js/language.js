@@ -449,12 +449,11 @@ var newsData = {
 
 
 // 技术文档
-
-var documentationData = {
+var docData = {
     "href" : {
-        0 : "tesla model.html"
+        "0" : "tesla model.html"
     },
     "aCap" : {
-        0 : "Tesla Model 3 Disassembly - Sep 06, 2018"
+        "0" : "Tesla Model 3 Disassembly - Sep 06, 2018"
     }
 };
