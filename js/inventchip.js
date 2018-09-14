@@ -1,6 +1,85 @@
 
 $(document).ready(function() {
     /* ==================================================
+ 页面跳转
+================================================== */
+    //获取参数 get parm
+    var url = location.href;
+    var tmp = url.split("?")[1];
+    var parm = tmp.split("=")[1];
+
+    $("li[id^='about_']").removeClass('active');
+    $("li[id^='tech_']").removeClass('active');
+    $("li[id^='product_']").removeClass('active');
+    $('.tab-pane').removeClass('active in');
+
+    function active(id) {
+        $('#about_' + id).addClass('active');
+        $('#tech_' + id).addClass('active');
+        $('#product_' + id).addClass('active');
+        $('#' + id).addClass('active in');
+        if(id == 'SiCtech') {
+            $('#tech_WBG').addClass('active');
+            $('#WBG').addClass('active in');
+        };
+    };
+
+    switch(parm) {
+        case "profile":
+            active('profile');
+            break;
+        case "values":
+            active('values');
+            break;
+        case "org":
+            active('org');
+            break;
+        case "events":
+            active('events');
+            break;
+        //technology 页面
+        case "SiCtech":
+            active('SiCtech');
+            break;
+        case "news":
+            active('news');
+            break;
+        case "links":
+            active('links');
+            break;
+        case "documentation":
+            active('documentation');
+            break;
+        case "WBG":
+            active('WBG');
+            break;
+        case "power":
+            active('power');
+            break;
+        case "gate":
+            active('gate');
+            break;
+        case "IPM":
+            active('IPM');
+            break;
+        //product 页面
+        case "1200V":
+            active('1200V');
+            break;
+        case "650V":
+            active('650V');
+            break;
+        case "gateDriver":
+            active('gateDriver');
+            break;
+    };
+
+
+
+
+
+
+    /* ==================================================
     about页面的动效及“回到顶层”按钮
 ================================================== */
 
@@ -91,70 +170,6 @@ $(document).ready(function() {
         }, 1000, 'easeInOutExpo');
         return false;
     });
-    /* ==================================================
-   页面跳转
-================================================== */
-    //获取参数 get parm
-    var url = location.href;
-    var tmp = url.split("?")[1];
-    var parm = tmp.split("=")[1];
 
-    $("li[class^='about_']").removeClass('active');
-    $("li[class^='tech_']").removeClass('active');
-    $("li[class^='product_']").removeClass('active');
-    $('.tab-pane').removeClass('active in');
-
-    switch(parm) {
-        case "profile":
-            active('profile');
-            break;
-        case "values":
-            active('values');
-            break;
-        case "org":
-            active('org');
-            break;
-        case "events":
-            active('events');
-            break;
-        //technology 页面
-        case "news":
-            active('news');
-            break;
-        case "links":
-            active('links');
-            break;
-        case "documentation":
-            active('documentation');
-            break;
-        case "WBG":
-            active('WBG');
-            break;
-        case "power":
-            active('power');
-            break;
-        case "gate":
-            active('gate');
-            break;
-        case "IPM":
-            active('IPM');
-            break;
-        //product 页面
-        case "1200V":
-            active('1200V');
-            break;
-        case "650V":
-            active('650V');
-            break;
-        case "gateDriver":
-            active('gateDriver');
-            break;
-    }
 });
 
-function active(id) {
-    $('#about_' + id).addClass('active');
-    $('#tech_' + id).addClass('active');
-    $('#product_' + id).addClass('active');
-    $('#' + id).addClass('active in');
-}

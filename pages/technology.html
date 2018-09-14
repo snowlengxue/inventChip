@@ -121,16 +121,16 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                 <!-- 一级标签 -->
                 <ul class="nav nav-tabs nav-stacked" role="tablist">
-                    <li id="tech_SiC_tech" role="presentation" class="active"><a class="SiC_tech" href="#SiC_tech" aria-controls="SiC_tech" role="tab" data-toggle="tab"></a></li>
-                    <li id="tech_news" role="presentation"><a class="news" href="#news" aria-controls="news" role="tab" data-toggle="tab"></a></li>
-                    <li id="tech_links" role="presentation"><a class="links" href="#links" aria-controls="links" role="tab" data-toggle="tab"></a></li>
-                    <li id="tech_documentation" role="presentation"><a class="documentation" href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab"></a></li>
+                    <li role="presentation" id="tech_SiCtech" class="active"><a class="SiCtech" href="#SiCtech" aria-controls="SiCtech" role="tab" data-toggle="tab"></a></li>
+                    <li role="presentation" id="tech_news"><a class="news" href="#news" aria-controls="news" role="tab" data-toggle="tab"></a></li>
+                    <li role="presentation" id="tech_links"><a class="links" href="#links" aria-controls="links" role="tab" data-toggle="tab"></a></li>
+                    <li role="presentation" id="tech_documentation"><a class="documentation" href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab"></a></li>
                 </ul>
             </div>
             <!--一级标签内容-->
             <div class="tab-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
                 <!--SiC技术-->
-                <div role="tabpanel" class="tab-pane active" id="SiC_tech">
+                <div role="tabpanel" class="tab-pane active" id="SiCtech">
                     <div class="row">
                         <!--二级标签-->
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-bottom-2em">
@@ -291,8 +291,78 @@
 <script src="../lib/bootstrap/js/bootstrap-collapse.js"></script>
 <script src="../js/language.js"></script>
 <script src="../js/contentWrite.js"></script>
-<script src="../js/inventchip.js"></script>
 <!--分页插件-->
 <script type="text/javascript" src="../lib/pagination/jquery.pagination.js"></script>
+<script src="../js/inventchip.js"></script>
+<!--<script>-->
+    <!--/* ==================================================-->
+   <!--页面跳转-->
+<!--================================================== */-->
+    <!--$(document).ready(function() {-->
+        <!--//获取参数 get parm-->
+        <!--var url = location.href;-->
+        <!--var tmp = url.split("?")[1];-->
+        <!--var parm = tmp.split("=")[1];-->
+
+        <!--function active(id) {-->
+            <!--$('#about_' + id).addClass('active');-->
+            <!--$('#tech_' + id).addClass('active');-->
+            <!--$('#product_' + id).addClass('active');-->
+            <!--$('#' + id).addClass('active in');-->
+        <!--}-->
+
+        <!--$("li[class^='about_']").removeClass('active');-->
+        <!--$("li[class^='tech_']").removeClass('active');-->
+        <!--$("li[class^='product_']").removeClass('active');-->
+        <!--$('.tab-pane').removeClass('active in');-->
+
+        <!--switch(parm) {-->
+            <!--case "profile":-->
+                <!--active('profile');-->
+                <!--break;-->
+            <!--case "values":-->
+                <!--active('values');-->
+                <!--break;-->
+            <!--case "org":-->
+                <!--active('org');-->
+                <!--break;-->
+            <!--case "events":-->
+                <!--active('events');-->
+                <!--break;-->
+            <!--//technology 页面-->
+            <!--case "news":-->
+                <!--active('news');-->
+                <!--break;-->
+            <!--case "links":-->
+                <!--active('links');-->
+                <!--break;-->
+            <!--case "documentation":-->
+                <!--active('documentation');-->
+                <!--break;-->
+            <!--case "WBG":-->
+                <!--active('WBG');-->
+                <!--break;-->
+            <!--case "power":-->
+                <!--active('power');-->
+                <!--break;-->
+            <!--case "gate":-->
+                <!--active('gate');-->
+                <!--break;-->
+            <!--case "IPM":-->
+                <!--active('IPM');-->
+                <!--break;-->
+            <!--//product 页面-->
+            <!--case "1200V":-->
+                <!--active('1200V');-->
+                <!--break;-->
+            <!--case "650V":-->
+                <!--active('650V');-->
+                <!--break;-->
+            <!--case "gateDriver":-->
+                <!--active('gateDriver');-->
+                <!--break;-->
+        <!--};-->
+    <!--});-->
+<!--</script>-->
 </body>
 </html>

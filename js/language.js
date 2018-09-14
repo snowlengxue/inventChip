@@ -31,7 +31,7 @@ var navData = {
         "links":['行业专业网站','Useful Web Links']
     },
     "technology": {
-        "SiC_tech" : ['SiC 技术','SiC Technology'],
+        "SiCtech" : ['SiC 技术','SiC Technology'],
         "documentation":['技术文档','Documentation'],
         "WBG":['SiC 宽禁带半导体','SiC WBG Semiconductor'],
         "power":['SiC 功率器件','SiC Power Device'],
