@@ -18,10 +18,6 @@ $(document).ready(function() {
         $('#tech_' + id).addClass('active');
         $('#product_' + id).addClass('active');
         $('#' + id).addClass('active in');
-        if(id == 'SiCtech') {
-            $('#tech_WBG').addClass('active');
-            $('#WBG').addClass('active in');
-        };
     };
 
     switch(parm) {
@@ -40,6 +36,8 @@ $(document).ready(function() {
         //technology 页面
         case "SiCtech":
             active('SiCtech');
+            $('#tech_WBG').addClass('active');
+            $('#WBG').addClass('active in');
             break;
         case "news":
             active('news');
@@ -52,15 +50,23 @@ $(document).ready(function() {
             break;
         case "WBG":
             active('WBG');
+            $('#tech_SiCtech').addClass('active');
+            $('#SiCtech').addClass('active in');
             break;
         case "power":
             active('power');
+            $('#tech_SiCtech').addClass('active');
+            $('#SiCtech').addClass('active in');
             break;
         case "gate":
             active('gate');
+            $('#tech_SiCtech').addClass('active');
+            $('#SiCtech').addClass('active in');
             break;
         case "IPM":
             active('IPM');
+            $('#tech_SiCtech').addClass('active');
+            $('#SiCtech').addClass('active in');
             break;
         //product 页面
         case "1200V":
