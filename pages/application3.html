@@ -45,7 +45,6 @@
 <!-- Header -->
 <header id="header">
     <div class="container">
-
         <div class="pull-left logo">
             <a href="../index.html"><img src="../img/logo-nav2.png" alt="" class="img-responsive" /></img></a>
             <!-- Uncomment below if you prefer to use a text image -->
@@ -53,7 +52,6 @@
         </div>
         <!--todo: width 小于1000px 时导航栏显示不正常-->
         <!--todo: 鼠标滑过菜单后，二级子菜单不消失，或消失过慢-->
-
         <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li><a class="company" href="../pages/about.html?parm=profile"></a>
@@ -88,9 +86,9 @@
                         <li><a class="gateDriver" href="../pages/product.html?parm=gateDriver"></a></li>
                     </ul>
                 </li>
-                <li><a class="application" href="../pages/application.html"></a></li>
+                <li><a class="application selected" href="../pages/application.html"></a></li>
                 <li><a class="nav_join" href="../pages/joinus.html"></a></li>
-                <li><a class="nav_contact selected" href="../pages/contact.html"></a></li>
+                <li><a class="nav_contact" href="../pages/contact.html"></a></li>
                 <li class="switch"><a class="switch cn"></a><a class="switch en"></a></li>
             </ul>
         </nav>
@@ -103,39 +101,50 @@
 <!-- /banner -->
 
 <!--  page content  -->
-<section id="contact" class="container-fluid" style="background-color: transparent;">
+<section class="content container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 class="section-title captionContact"></h2>
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="../img/app1.jpg" alt="">
+                    <div class="caption app_1"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="../img/app2.jpg" alt="">
+                    <div class="caption app_2"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="../img/app3.jpg" alt="">
+                    <div class="caption app_3"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="../img/app24.png" alt="">
+                    <div class="caption app_4"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="../img/chongdianzhuang1.jpg" alt="">
+                    <div class="caption app_5"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <img src="../img/datacenter1.jpg" alt="">
+                    <div class="caption app_6"></div>
+                </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="info">
-                            <div>
-                                <i class="fa fa-map-marker"></i>
-                                <p id="add"></p>
-                            </div>
-
-                            <div>
-                                <i class="fa fa-envelope"></i>
-                                <p id="email"></p>
-                            </div>
-
-                            <div>
-                                <i class="fa fa-phone"></i>
-                                <p id="tel"></p>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
     </div>
-</section>
 
+
+</section>
 <!--  /page content  -->
 
 
@@ -182,7 +191,7 @@
                     </ul>
                     <ul class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><li><a class="application" href="../pages/application.html"></a></li></ul>
                     <ul class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><li><a class="nav_join" href="../pages/joinus.html"></a></li></ul>
-                    <ul class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><li><a class="nav_contact selected" href="../pages/contact.html"></a></li></ul>
+                    <ul class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><li><a class="nav_contact" href="../pages/contact.html"></a></li></ul>
                 </div>
 
             </div>
@@ -195,9 +204,11 @@
 <!-- Required JavaScript Libraries -->
 <script src="../lib/jquery/jquery.min.js"></script>
 <script src="../lib/bootstrap/js/bootstrap-collapse.js"></script>
-<script src="../lib/superfish/superfish.min.js"></script>
+<script src="../lib/superfish/superfish.js"></script>
+<!--<script src="../lib/superfish/superfish.min.js"></script>-->
 <script src="../js/language.js"></script>
 <script src="../js/contentWrite.js"></script>
 <script src="../js/inventchip.js"></script>
+
 </body>
 </html>
