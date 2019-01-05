@@ -425,7 +425,18 @@ var newsData = {
         "30" : "http://powerpulse.net/gate-driver-ics-solve-ground-shift-issues-in-smps",
         "31" : "http://powerpulse.net/porsche-uses-sic-fets-in-modular-fast-charging-system-suitable-for-all-evs",
         "32" : "http://powerpulse.net/gen-3-sic-jfets-with-1200v-and-650v-options",
-        "33" : "http://powerpulse.net/gan-based-interleaved-ccm-totem-pole-bridgeless-pfc-reference-design"
+        "33" : "http://powerpulse.net/gan-based-interleaved-ccm-totem-pole-bridgeless-pfc-reference-design",
+        "34" : "http://powerpulse.net/175kva-sic-converters-in-the-new-dragon-2-locomotive/",
+        "35" : "http://powerpulse.net/ready-to-use-600-v-gan-fet-power-stages-supports-up-to-10kw/",
+        "36" : "http://powerpulse.net/littelfuse-completes-acquisition-of-monolith-semiconductor/",
+        "37" : "http://powerpulse.net/automotive-ipms-provide-space-power-saving-integrated-solution-for-obcs/",
+        "38" : "http://powerpulse.net/infineon-acquires-sic-specialist-siltectra-for-e124-million/",
+        "39" : "http://powerpulse.net/gallium-nitride-solutions-from-infineon-are-in-volume-production/",
+        "40" : "https://www.digitimes.com/news/a20181213PD206.html",
+        "41" : "http://powerpulse.net/next-generation-sic-transistors-claim-worlds-lowest-on-state-resistance/",
+        "42" : "http://powerpulse.net/sanan-ic-announces-commercial-release-of-6-inch-sic-wafer-foundry-process/"
+
+
   },
     "aCap" : {
         "0" : "Littlefuse 1200V SiC Schottky Diodes Rated for 8A, 15A and 20A",
@@ -461,7 +472,16 @@ var newsData = {
         "30" : "Gate Driver ICs Solve Ground-Shift Issues in SMPS Designs – Infineon Sep 14, 2018",
         "31" : "Porsche Uses SiC FETs in Modular Fast-Charging System Suitable for All EVs – Oct 1, 2018",
         "32" : "Gen-3 SiC JFETs with 1200V and 650V Options – USCI Oct 19, 2018",
-        "33" : "GaN-Based Interleaved CCM Totem Pole Bridgeless PFC Reference Design – TI Oct 20, 2018"
+        "33" : "GaN-Based Interleaved CCM Totem Pole Bridgeless PFC Reference Design – TI Oct 20, 2018",
+        "34" : "175kVA SiC Converters in the New Dragon 2 Locomotive – Oct 25, 2018",
+        "35" : "Ready-to-Use, 600-V GaN FET Power Stages Supports up to 10kW – TI Nov 1, 2018",
+        "36" : "Littelfuse Completes Acquisition of Monolith Semiconductor – Nov 4, 2018",
+        "37" : "Automotive IPMs Provide Space & Power Saving Integrated Solution for OBCs – On Semi Nov 10, 2018",
+        "38" : "Infineon Acquires SiC-Specialist Siltectra for €124 Million – Nov 12, 2018",
+        "39" : "Gallium-Nitride Solutions from Infineon are in Volume Production – Nov 14, 2018",
+        "40" : "Jentech to gain from disruptive water-cooled IGBT modules for EVs – Dec 13, 2018",
+        "41" : "Next-Generation SiC Transistors Claim World’s Lowest On-State Resistance – Sumitomo Dec 21, 2018",
+        "42" : "Sanan IC Announces Commercial Release of 6-Inch SiC Wafer Foundry Process – Dec 22, 2018"
     }
 };
 
