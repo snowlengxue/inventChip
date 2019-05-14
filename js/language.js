@@ -434,7 +434,25 @@ var newsData = {
         "39" : "http://powerpulse.net/gallium-nitride-solutions-from-infineon-are-in-volume-production/",
         "40" : "https://www.digitimes.com/news/a20181213PD206.html",
         "41" : "http://powerpulse.net/next-generation-sic-transistors-claim-worlds-lowest-on-state-resistance/",
-        "42" : "http://powerpulse.net/sanan-ic-announces-commercial-release-of-6-inch-sic-wafer-foundry-process/"
+        "42" : "http://powerpulse.net/sanan-ic-announces-commercial-release-of-6-inch-sic-wafer-foundry-process/",
+        "43" : "https://www.fau.eu/2019/01/10/news/research/saving-energy-by-taking-a-close-look-inside-transistors/",
+        "44" : "https://www.wolfspeed.com/news/cree-announces-long-term-silicon-carbide-wafer-supply-agreement-with-leading-global-semiconductor-company",
+        "45" : "https://www.wolfspeed.com/news/cree-announces-quarter-billion-dollar-wafer-supply-agreement-with-stmicroelectronics ",
+        "46" : "https://powerpulse.net/ii-vi-supplying-200mm-sic-for-horizon-2020-reaction-program/",
+        "47" : "https://powerpulse.net/gandalf-1kw-bridgeless-totem-pole-pfc-reference-board-with-digital-control/",
+        "48" : "https://powerpulse.net/ge-research-awarded-3-million-to-develop-high-voltage-sic-super-junction-mosfet/",
+        "49" : "https://powerpulse.net/gallium-oxide-could-have-lower-cost-than-sic-nrel-analysis-reveals/",
+        "50" : "https://powerpulse.net/8a-sic-mosfet-gate-driver-supports-inverters-of-several-hundred-kw/",
+        "51" : "https://finance.yahoo.com/news/cree-sell-lighting-business-ideal-130100883.html",
+        "52" : "https://www.thefabricator.com/article/tubepipeproduction/what-s-new-in-induction-welding-power-supplies-",
+        "53" : "https://powerpulse.net/ceramic-embedding-boosts-wide-bandgap-device-performance/",
+        "54" : "https://www.cree.com/news-events/news/article/cree-to-invest-1-billion-to-expand-silicon-carbide-capacity",
+        "55" : "https://docs.wixstatic.com/ugd/cde95c_e9b4a160f1f94510be582fb131d6a8d6.pdf",
+        "56" : "https://powerpulse.net/?post_type=post&p=166225&source=ppd",
+        "57" : "https://powerpulse.net/?post_type=post&p=166237&source=ppd",
+        "58" : "https://powerpulse.net/?post_type=post&p=166323&source=ppd",
+        "59" : "https://powerpulse.net/?post_type=post&p=166296&source=ppd",
+        "60" : "https://powerpulse.net/?post_type=post&p=166412&source=ppd"
 
 
   },
@@ -481,7 +499,25 @@ var newsData = {
         "39" : "Gallium-Nitride Solutions from Infineon are in Volume Production – Nov 14, 2018",
         "40" : "Jentech to gain from disruptive water-cooled IGBT modules for EVs – Dec 13, 2018",
         "41" : "Next-Generation SiC Transistors Claim World’s Lowest On-State Resistance – Sumitomo Dec 21, 2018",
-        "42" : "Sanan IC Announces Commercial Release of 6-Inch SiC Wafer Foundry Process – Dec 22, 2018"
+        "42" : "Sanan IC Announces Commercial Release of 6-Inch SiC Wafer Foundry Process – Dec 22, 2018",
+        "43" : "Saving energy by taking a close look inside transistors (SiC MOSFET defect mapping) – Infineon Jan 10, 2018",
+        "44" : "Cree, Inc. Announces Long-Term Silicon Carbide Wafer Supply Agreement with a Leading Global Semiconductor Company (85M$) – Oct 16, 2018",
+        "45" : "Cree and STMicroelectronics Announce Multi-Year Silicon Carbide Wafer Supply Agreement (250M$) – Jan 7, 2019",
+        "46" : "II-VI Supplying 200mm SiC Substrates for EU Horizon 2020 REACTION Program – Jan 31, 2019",
+        "47" : "GaNdalf 1kW Bridgeless Totem Pole PFC Reference Board with Digital Control – Panasonic Feb 01, 2019",
+        "48" : "GE Research Awarded $3 Million to Develop High-Voltage SiC Super Junction MOSFET – Feb 24, 2019",
+        "49" : "Gallium Oxide Could Have Lower Cost than SiC, NREL Analysis Reveals – Feb 25, 2019",
+        "50" : "8A SiC MOSFET Gate Driver Supports Inverters of Several Hundred kW – Power Integrations Feb 27, 2019",
+        "51" : "Cree sells lighting business and focuses on Power, RF, and high performance LED chips – Mar 15, 2019",
+        "52" : "What’s new in induction welding power supplies? SiC MOSFET – Mar 07, 2019",
+        "53" : "Ceramic Embedding Boosts Wide Bandgap Device Performance - Fraunhofer IISB Apr 24, 2019",
+        "54" : "Cree to Invest $1 Billion to Expand Silicon Carbide Capacity – May 7, 2019",
+        "55" : "Pre-Flex enables Silicon carbide-like performance for low-cost IGBTs and allows SiC- and GaN-based topologies to switch up to 20x faster than they do today. Built into the architecture are innovative cycle-by-cycle safety features and communications that were never possible before. Pre-Flex has switched 900V Wolfspeed SiC MOSFETs up to 1MHz, and 650V Infineon IGBTs at over 100kHz with unprecedented efficiencies. The technology presently scales from 1kW to above gigawatts.",
+        "56" : "AI-based 100kHz 200kW SiC Inverter Evaluation System Eliminates 70% to 95% of Switching Losses - Pre-Switch, Inc. May 8, 2019",
+        "57" : "Silicon Power Corp Acquires former Microsemi Fab and Establishes new Subsidiary – May 9, 2019",
+        "58" : "AC-DC Converter ICs with Built-In 1700V SiC MOSFET Target Industrial Equipment – Rohm May 10, 2019",
+        "59" : "Infineon Begins High-Volume Production of 1200V and 650V SiC MOSFETs – May 11, 2019",
+        "60" : "Transfer-Molded Intelligent Power Modules Rated up to 100A/1200V for 56kW-Class Inverters – Mitsubishi May 11, 2019"
     }
 };
 
